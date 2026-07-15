@@ -1,0 +1,25 @@
+.gitlab-ci.yml
+  s_17b2a194cd9764::t_be9c72171a93a9 51-53,55
+CLOUDFLARE.md
+  s_17b2a194cd9764::t_5a10c283941f02 667-669
+  s_17b2a194cd9764::t_78506939cb378b 681-685,688-689,692-693
+  s_17b2a194cd9764::t_82024fdb8d4dac 652-658
+  s_17b2a194cd9764::t_b52e2a17f9f9c7 729-737
+  s_17b2a194cd9764::t_ec1ed0c9bc2256 694
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9d2760a3c96c82c07ffaed69df28ae4b8038c695",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
