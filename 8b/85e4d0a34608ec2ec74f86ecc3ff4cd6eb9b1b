@@ -1,0 +1,23 @@
+CLOUDFLARE.md
+  s_17b2a194cd9764::t_da14d0525a169a 388-396
+  s_17b2a194cd9764::t_b777bcf375ad26 398
+  s_17b2a194cd9764::t_5f3110b33bcd81 453-459
+  s_17b2a194cd9764::t_91c3cd4a4643e9 406-424
+  s_17b2a194cd9764::t_fd569fca64c22c 662-664
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8b85e4d0a34608ec2ec74f86ecc3ff4cd6eb9b1b",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": null
+    }
+  }
+}
