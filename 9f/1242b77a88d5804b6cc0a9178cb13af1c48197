@@ -1,0 +1,32 @@
+.gitlab-ci.yml
+  s_17b2a194cd9764::t_b601e5827af0c4 4-5,9-13,15,24-32,41-42,77-80,92-93,96-102
+  s_17b2a194cd9764::t_8b38bb9d494a86 1-3,6-8,23,33-40,43-59,64-76,81,85-91,94-95,103-104
+  s_17b2a194cd9764::t_c813bdc9ee473a 60-63
+  s_17b2a194cd9764::t_9c36310e51ba5e 82-84
+  s_17b2a194cd9764::t_7f5d39df2276f3 14,16-22
+CLOUDFLARE.md
+  s_17b2a194cd9764::t_4562ecd18f226b 596-597,599-611
+  s_17b2a194cd9764::t_e32684cc5dc4c2 625-715
+  s_17b2a194cd9764::t_ac1af73ae21ee6 575-595,598,612-623
+  s_17b2a194cd9764::t_2800b79c085967 624
+sa/db-postgres/ci-canary.sh
+  s_17b2a194cd9764::t_4b898aaec3ac2e 58
+  s_17b2a194cd9764::t_a93dcb5f1eee11 1-28,35-57,59-64
+  s_17b2a194cd9764::t_a6096aacc9bdb0 29-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9f1242b77a88d5804b6cc0a9178cb13af1c48197",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
