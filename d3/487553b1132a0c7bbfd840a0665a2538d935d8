@@ -1,0 +1,23 @@
+CLOUDFLARE.md
+  s_17b2a194cd9764::t_91c3cd4a4643e9 406-424
+  s_17b2a194cd9764::t_5f3110b33bcd81 453-459
+  s_17b2a194cd9764::t_c2418767f13618 662-664
+  s_17b2a194cd9764::t_da14d0525a169a 388-396
+  s_17b2a194cd9764::t_b777bcf375ad26 398
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d3487553b1132a0c7bbfd840a0665a2538d935d8",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
