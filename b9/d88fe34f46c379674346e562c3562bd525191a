@@ -1,0 +1,21 @@
+sa/db-postgres/ci-canary.sh
+  s_17b2a194cd9764::t_a93dcb5f1eee11 1-28,35-57,59-64
+  s_17b2a194cd9764::t_a6096aacc9bdb0 29-34
+  s_17b2a194cd9764::t_4b898aaec3ac2e 58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b9d88fe34f46c379674346e562c3562bd525191a",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
