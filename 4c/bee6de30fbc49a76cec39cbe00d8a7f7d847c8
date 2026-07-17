@@ -1,0 +1,29 @@
+sapg/readonly.go
+  s_17b2a194cd9764::t_fb49b5e3a29b7b 1-26
+sapg/sapg.go
+  s_17b2a194cd9764::t_7e63dfedf328d5 1-62
+sapg/storageauthority.go
+  s_17b2a194cd9764::t_4980a94a13b6d2 1-31
+cmd/boulder/main.go
+  s_17b2a194cd9764::t_e04b4843c258d4 14
+cmd/boulder-sa-pg/main.go
+  s_17b2a194cd9764::t_4bb02c4ebe53f6 1-115
+sapg/admin.go
+  s_17b2a194cd9764::t_55418b3a893fa2 1-24
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4cbee6de30fbc49a76cec39cbe00d8a7f7d847c8",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
