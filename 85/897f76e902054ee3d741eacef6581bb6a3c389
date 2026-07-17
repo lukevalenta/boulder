@@ -1,0 +1,21 @@
+sapg/schema/sa.sql
+  s_17b2a194cd9764::t_bdf2390ab331da 1-262
+sapg/schema/incidents.sql
+  s_17b2a194cd9764::t_74fc9b995c8ede 1-28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "85897f76e902054ee3d741eacef6581bb6a3c389",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
