@@ -1,0 +1,23 @@
+sapg/reads_test.go
+  s_17b2a194cd9764::t_cf53162bc1eacd 1-147
+sapg/reads.go
+  s_17b2a194cd9764::t_7ad8e991f9205e 1-299
+sapg/errors.go
+  s_17b2a194cd9764::t_31b108be6dd5c1 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f90b518f7569429b1d65ec36f4f3db3b10139a37",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
