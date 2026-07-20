@@ -1,0 +1,21 @@
+sapg/grpc_smoke_test.go
+  s_17b2a194cd9764::t_66887be7eb885f 123
+  s_17b2a194cd9764::t_1c56f16ae28461 1-10,12-122,124-127
+  s_17b2a194cd9764::t_9617fd8e1c3704 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d36f227e25c1b51e35dc9c9ffb71c04ce9e33d94",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
