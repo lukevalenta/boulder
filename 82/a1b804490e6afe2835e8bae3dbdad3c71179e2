@@ -1,0 +1,22 @@
+sapg/metrics.go
+  s_17b2a194cd9764::t_66132b4023feb7 114-128
+  s_17b2a194cd9764::t_9aef4f11679a82 5
+cmd/boulder-sa-pg/main.go
+  s_17b2a194cd9764::t_c05129a4efb05b 31-34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "82a1b804490e6afe2835e8bae3dbdad3c71179e2",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
