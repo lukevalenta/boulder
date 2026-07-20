@@ -1,0 +1,25 @@
+sapg/admin.go
+  s_17b2a194cd9764::t_4a3e2af23d0316 10-12,14
+sapg/sapg.go
+  s_17b2a194cd9764::t_ad2c4449929b23 12-17
+sapg/readonly.go
+  s_17b2a194cd9764::t_b6e70b03ab59b7 10-13,15
+sapg/storageauthority.go
+  s_17b2a194cd9764::t_92ef8073b8aadf 11-19,21-22,31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "7f19efa523b790939de25caab6d22b9a9021af15",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
