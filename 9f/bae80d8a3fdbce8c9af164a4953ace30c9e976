@@ -1,0 +1,32 @@
+docker-compose.yml
+  s_17b2a194cd9764::t_8c1fa54c53702b 106-133
+  s_17b2a194cd9764::t_8d7ff396f288d9 19-23
+test/entrypoint.sh
+  s_17b2a194cd9764::t_d782c4b2f0b786 34-51
+  s_17b2a194cd9764::t_2b4e985a89d63f 62-63,66-73
+test/startservers.py
+  s_17b2a194cd9764::t_f751d73a63cb19 37,41
+  s_17b2a194cd9764::t_c309ff594489d1 10-18
+  s_17b2a194cd9764::t_3eb9368026bde9 169-174
+test/db.go
+  s_17b2a194cd9764::t_81dbeffecd1e80 40-53
+  s_17b2a194cd9764::t_6a0e77ac813da7 8
+test/db_postgres.go
+  s_17b2a194cd9764::t_6e3e8cf93ed1f5 1-104
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9fbae80d8a3fdbce8c9af164a4953ace30c9e976",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
