@@ -1,0 +1,36 @@
+sapg/orders.go
+  s_17b2a194cd9764::t_8ea83010f58c86 102-107,112-117,131
+sapg/writes_orders.go
+  s_17b2a194cd9764::t_8831fcff0043aa 77,79-105
+  s_17b2a194cd9764::t_9ff09f8e243e57 1-8,10-76,78,106-205
+  s_17b2a194cd9764::t_eace8735b65398 9
+sapg/writes_crl.go
+  s_17b2a194cd9764::t_fcbd039b35d4c9 1-7,9-10,12-178
+  s_17b2a194cd9764::t_287c94aff27c1f 8,11
+sapg/writes_classc_test.go
+  s_17b2a194cd9764::t_f682207881dacd 1-293
+sapg/writes_authz.go
+  s_17b2a194cd9764::t_1c4c53783728ab 1-97
+sapg/writes_pause.go
+  s_17b2a194cd9764::t_a7d7322f9e10b4 1-125
+sapg/writes_revoke.go
+  s_17b2a194cd9764::t_936a0d4a019100 1-141
+sapg/writes_cert.go
+  s_17b2a194cd9764::t_4d87e0aca412c7 1-197
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4b49b724fdfa5b8bd54afd31e087ab1d14b821e9",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
