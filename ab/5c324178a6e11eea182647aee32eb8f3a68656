@@ -1,0 +1,23 @@
+.gitlab-ci.yml
+  s_17b2a194cd9764::t_9bbe0aff00c28e 1-50
+sapg/main_test.go
+  s_17b2a194cd9764::t_389c244bf5bfbf 1-58
+sapg/run-tests.sh
+  s_17b2a194cd9764::t_ac660c1f901ae6 1-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ab5c324178a6e11eea182647aee32eb8f3a68656",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
