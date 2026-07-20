@@ -1,0 +1,21 @@
+sapg/health_test.go
+  s_17b2a194cd9764::t_7fe90180ed3868 1-32
+sapg/health.go
+  s_17b2a194cd9764::t_ac3d722e7f9a44 1-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5e54235f9640bc955f78c3b73baf067f4bcc6610",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
