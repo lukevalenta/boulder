@@ -1,0 +1,38 @@
+sapg/query.go
+  s_17b2a194cd9764::t_3e2bcfbb355a48 1-23
+sapg/reads_orders.go
+  s_17b2a194cd9764::t_cfe82c51ae463e 1-125
+sapg/authz.go
+  s_17b2a194cd9764::t_1ecd5dfef2e827 125
+  s_17b2a194cd9764::t_559a8d2290c096 1-124,126-224,229-236,241-244
+  s_17b2a194cd9764::t_3827d6cece70bb 225-228,237-240
+sapg/reads_fqdn.go
+  s_17b2a194cd9764::t_3d2e9a682d6630 1-74
+sapg/reads_authz.go
+  s_17b2a194cd9764::t_f563b637013731 1-200
+sapg/reads_classb_test.go
+  s_17b2a194cd9764::t_0c90a1a2de254b 1-283
+sapg/reads_more.go
+  s_17b2a194cd9764::t_21029b87043fce 82-128
+  s_17b2a194cd9764::t_d524cf2761ed97 7,15
+sapg/orders.go
+  s_17b2a194cd9764::t_aa2a4a0233a285 1-244
+sapg/reads_test.go
+  s_17b2a194cd9764::t_0d93317801022b 40
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f5ffe1999be7d1ac2e0db685572c5a0a7ab723f9",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
