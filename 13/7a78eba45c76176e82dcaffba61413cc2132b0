@@ -1,0 +1,26 @@
+cmd/bad-key-revoker/main.go
+  s_17b2a194cd9764::t_9bdfceb49e28f9 304
+  s_17b2a194cd9764::t_458981db92ce28 66,75
+  s_17b2a194cd9764::t_92a0ddcf89b32e 38
+  s_17b2a194cd9764::t_c2b5454d478317 104,113
+  s_17b2a194cd9764::t_cad8af08337b04 132
+  s_17b2a194cd9764::t_69b48a18125eff 314
+cmd/bad-key-revoker/db.go
+  s_17b2a194cd9764::t_b643d39fc95475 1-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "137a78eba45c76176e82dcaffba61413cc2132b0",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
