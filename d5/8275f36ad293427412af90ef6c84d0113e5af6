@@ -1,0 +1,21 @@
+cmd/bad-key-revoker/db_postgres.go
+  s_17b2a194cd9764::t_3c91f3ee1540aa 1-100
+cmd/bad-key-revoker/main.go
+  s_17b2a194cd9764::t_72e27e8ae2ed62 302-316
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d58275f36ad293427412af90ef6c84d0113e5af6",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
