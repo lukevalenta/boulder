@@ -1,0 +1,35 @@
+mtpublisher/mtpublisher.go
+  s_17b2a194cd9764::t_cc2762af91c987 67,78
+  s_17b2a194cd9764::t_8217c1da3f2ff8 20,28-31,42
+docker-compose.yml
+  s_17b2a194cd9764::t_8b063925b3c97f 122
+cmd/boulder-mtpublisher/main.go
+  s_17b2a194cd9764::t_0715d247f5563e 61-75,77
+test/startservers.py
+  s_17b2a194cd9764::t_2819f6538206e7 14-17,20
+test/db_postgres.go
+  s_17b2a194cd9764::t_e80406d48fa383 31
+sapg/schema/mtcmeta.sql
+  s_17b2a194cd9764::t_c062f9513cfc50 1-39
+mtpublisher/db.go
+  s_17b2a194cd9764::t_ebd336d64a54b7 9,12-14
+  s_17b2a194cd9764::t_d7afb8033de97a 1-8,10-11,15-51
+mtpublisher/db_postgres.go
+  s_17b2a194cd9764::t_96b1b5883613b0 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d997bde2706d6a18ab95e5b9443a2874b4f03769",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
