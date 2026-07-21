@@ -1,0 +1,33 @@
+test/startservers.py
+  s_17b2a194cd9764::t_9eaf7761861976 20
+  s_17b2a194cd9764::t_a7d8b8b0c81098 12-17
+cmd/bad-key-revoker/main.go
+  s_17b2a194cd9764::t_92a0ddcf89b32e 38
+  s_17b2a194cd9764::t_458981db92ce28 66,75
+  s_17b2a194cd9764::t_c2b5454d478317 104,113
+  s_17b2a194cd9764::t_cad8af08337b04 132
+  s_17b2a194cd9764::t_69b48a18125eff 326
+  s_17b2a194cd9764::t_32ef50f73ea5fc 302-316
+cmd/bad-key-revoker/db_postgres.go
+  s_17b2a194cd9764::t_3c91f3ee1540aa 1-100
+sa/database_postgres.go
+  s_17b2a194cd9764::t_f46a02ae463cd8 1-89
+cmd/bad-key-revoker/db.go
+  s_17b2a194cd9764::t_b643d39fc95475 1-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5ad0e859e9d19665f08101bba8aec3b01f60fbe7",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
