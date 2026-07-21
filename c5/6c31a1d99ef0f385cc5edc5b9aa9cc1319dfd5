@@ -1,0 +1,493 @@
+vendor/github.com/jackc/pgx/v5/pgconn/internal/bgreader/bgreader.go
+  s_4cef60f03847e9::t_82fcf81df4bbb4 1-139
+vendor/github.com/jackc/pgx/v5/pgxpool/rows.go
+  s_4cef60f03847e9::t_8ef0b58f43de44 1-116
+vendor/golang.org/x/text/language/match.go
+  s_4cef60f03847e9::t_856698d1e1d45c 1-735
+vendor/github.com/jackc/pgx/v5/tx.go
+  s_4cef60f03847e9::t_07efed49683827 1-442
+vendor/golang.org/x/text/language/tables.go
+  s_4cef60f03847e9::t_52d04577b49e42 1-298
+vendor/github.com/jackc/pgx/v5/pgproto3/row_description.go
+  s_4cef60f03847e9::t_115e01224cb146 1-165
+vendor/golang.org/x/text/internal/language/compact/tags.go
+  s_4cef60f03847e9::t_4916f8e475d9f0 1-91
+vendor/github.com/jackc/pgx/v5/LICENSE
+  s_4cef60f03847e9::t_c2915fccdb278e 1-22
+vendor/github.com/jackc/pgx/v5/internal/stmtcache/stmtcache.go
+  s_4cef60f03847e9::t_f33d4b497db21f 1-45
+vendor/github.com/jackc/pgx/v5/internal/iobufpool/iobufpool.go
+  s_4cef60f03847e9::t_8a7838f8f05217 1-78
+vendor/github.com/jackc/pgx/v5/pgtype/macaddr.go
+  s_4cef60f03847e9::t_6f80e611d30da4 1-162
+vendor/github.com/jackc/pgx/v5/internal/pgio/doc.go
+  s_4cef60f03847e9::t_ca7d6a28e18458 1-6
+vendor/golang.org/x/text/internal/language/language.go
+  s_4cef60f03847e9::t_5ef66f08160913 1-627
+go.sum
+  s_4cef60f03847e9::t_c35914694fe5fa 66,130-137,237,240-241,373
+vendor/github.com/jackc/puddle/v2/resource_list.go
+  s_4cef60f03847e9::t_4cb75739981db8 1-28
+vendor/github.com/jackc/pgx/v5/pgproto3/error_response.go
+  s_4cef60f03847e9::t_2d329fcdeaecb3 1-326
+vendor/github.com/jackc/pgx/v5/test.sh
+  s_4cef60f03847e9::t_c8b4a43b2aafe0 1-170
+vendor/github.com/jackc/pgx/v5/pgtype/int.go.erb
+  s_4cef60f03847e9::t_6aa1babcc69399 1-551
+vendor/github.com/jackc/pgx/v5/pgproto3/notification_response.go
+  s_4cef60f03847e9::t_98ae5db20faa14 1-71
+vendor/github.com/jackc/pgx/v5/pgconn/krb5.go
+  s_4cef60f03847e9::t_4f6f44a96f2ee1 1-100
+vendor/github.com/jackc/pgx/v5/pgproto3/execute.go
+  s_4cef60f03847e9::t_b8682dc15ef6a6 1-58
+vendor/github.com/jackc/pgx/v5/pgconn/defaults.go
+  s_4cef60f03847e9::t_6d3c58a8c31013 1-63
+vendor/github.com/jackc/pgx/v5/pgtype/qchar.go
+  s_4cef60f03847e9::t_d6fd28c27558bf 1-163
+vendor/golang.org/x/text/internal/language/coverage.go
+  s_4cef60f03847e9::t_619c7b728e2ded 1-28
+vendor/github.com/jackc/pgx/v5/pgproto3/frontend.go
+  s_4cef60f03847e9::t_de7fad6eab69c3 1-475
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_ok.go
+  s_4cef60f03847e9::t_0850833d3d404e 1-50
+vendor/github.com/jackc/pgx/v5/pgproto3/empty_query_response.go
+  s_4cef60f03847e9::t_29f903f60d73f4 1-34
+vendor/github.com/jackc/pgx/v5/pgproto3/copy_out_response.go
+  s_4cef60f03847e9::t_ed3a0bc10fa653 1-96
+vendor/github.com/jackc/pgx/v5/pgtype/path.go
+  s_4cef60f03847e9::t_a426658c479561 1-280
+vendor/github.com/jackc/pgx/v5/pgtype/xml.go
+  s_4cef60f03847e9::t_af326dfd4a76ef 1-198
+vendor/golang.org/x/text/secure/precis/transformer.go
+  s_4cef60f03847e9::t_dcb1009fc4f494 1-32
+vendor/github.com/jackc/pgx/v5/pgproto3/pgproto3.go
+  s_4cef60f03847e9::t_ce0acb0a7388a9 1-120
+vendor/github.com/jackc/pgx/v5/pgproto3/parse.go
+  s_4cef60f03847e9::t_7c8dc7caaf5e1d 1-89
+vendor/golang.org/x/text/internal/language/compact/compact.go
+  s_4cef60f03847e9::t_961610ff83b07d 1-61
+vendor/github.com/jackc/pgx/v5/pgproto3/query.go
+  s_4cef60f03847e9::t_1fa242e6f5cabc 1-49
+vendor/github.com/jackc/puddle/v2/context.go
+  s_4cef60f03847e9::t_ef81bbdbc5ab7b 1-24
+vendor/github.com/jackc/pgx/v5/pgxpool/tracer.go
+  s_4cef60f03847e9::t_5a7eaf71b01ab3 1-33
+vendor/github.com/jackc/pgx/v5/pgproto3/big_endian.go
+  s_4cef60f03847e9::t_803cfc51fe09db 1-37
+vendor/golang.org/x/text/cases/tables17.0.0.go
+  s_4cef60f03847e9::t_ecd400cedec43d 1-2642
+vendor/github.com/jackc/pgx/v5/pgtype/int.go
+  s_4cef60f03847e9::t_09ec0c9c45e38f 1-1990
+vendor/github.com/jackc/pgx/v5/pgtype/ltree.go
+  s_4cef60f03847e9::t_bbfcaaaed7cec5 1-122
+vendor/golang.org/x/text/internal/language/compact/parents.go
+  s_4cef60f03847e9::t_bb8805bb6ae649 1-120
+vendor/github.com/jackc/pgx/v5/pgproto3/startup_message.go
+  s_4cef60f03847e9::t_cdd1ff0240d0f3 1-99
+vendor/github.com/jackc/pgx/v5/pgconn/config.go
+  s_4cef60f03847e9::t_5ac4a4ccbde3da 1-1088
+vendor/golang.org/x/text/secure/precis/trieval.go
+  s_4cef60f03847e9::t_fb21c5fabf71fb 1-64
+vendor/github.com/jackc/pgx/v5/pgtype/json.go
+  s_4cef60f03847e9::t_c9dc0f44512a24 1-243
+vendor/github.com/jackc/pgx/v5/pgproto3/cancel_request.go
+  s_4cef60f03847e9::t_50ed4605e0c46c 1-85
+vendor/github.com/jackc/pgx/v5/pgproto3/parameter_description.go
+  s_4cef60f03847e9::t_db2ad6b157d0e2 1-67
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_sasl.go
+  s_4cef60f03847e9::t_00b9dab020bd17 1-73
+vendor/github.com/jackc/pgx/v5/internal/stmtcache/lru_cache.go
+  s_4cef60f03847e9::t_101044adcdf878 1-187
+vendor/github.com/jackc/pgx/v5/.gitignore
+  s_4cef60f03847e9::t_92221554d26c5e 1-27
+vendor/github.com/jackc/pgx/v5/pgtype/range_codec.go
+  s_4cef60f03847e9::t_fd85b3cb873936 1-377
+vendor/github.com/jackc/pgx/v5/pgproto3/gss_response.go
+  s_4cef60f03847e9::t_2dcb0955316743 1-46
+vendor/github.com/jackc/pgx/v5/pgxpool/conn.go
+  s_4cef60f03847e9::t_5f62c9616cce7b 1-133
+vendor/golang.org/x/text/secure/precis/tables17.0.0.go
+  s_4cef60f03847e9::t_4fd9a213853f1b 1-4486
+vendor/github.com/jackc/pgx/v5/pgproto3/parameter_status.go
+  s_4cef60f03847e9::t_96c10d8d96f0e3 1-58
+vendor/github.com/jackc/pgx/v5/pgtype/float4.go
+  s_4cef60f03847e9::t_e54254770204f0 1-323
+vendor/github.com/jackc/pgx/v5/pgproto3/copy_data.go
+  s_4cef60f03847e9::t_2915cdc9c1c8c9 1-67
+vendor/github.com/jackc/pgx/v5/pgproto3/README.md
+  s_4cef60f03847e9::t_5944d68e6bd836 1-7
+vendor/github.com/jackc/pgx/v5/pgtype/bytea.go
+  s_4cef60f03847e9::t_186d999ddbcff5 1-254
+vendor/github.com/jackc/pgx/v5/batch.go
+  s_4cef60f03847e9::t_9ce66b4cbbc062 1-537
+vendor/github.com/jackc/pgx/v5/pgtype/bits.go
+  s_4cef60f03847e9::t_58542bedf30a72 1-208
+vendor/github.com/jackc/pgx/v5/pgproto3/function_call_response.go
+  s_4cef60f03847e9::t_884576d4f843b4 1-97
+vendor/github.com/jackc/pgx/v5/pgtype/timestamptz.go
+  s_4cef60f03847e9::t_d9dc214681a422 1-370
+vendor/github.com/jackc/pgx/v5/pgtype/uuid.go
+  s_4cef60f03847e9::t_2f39d8db256780 1-291
+vendor/golang.org/x/text/internal/language/compact/language.go
+  s_4cef60f03847e9::t_0fb26f03c2e3d5 1-260
+vendor/golang.org/x/text/width/tables15.0.0.go
+  s_4cef60f03847e9::t_b8c65c40889498 1-1367
+vendor/github.com/jackc/pgx/v5/pgproto3/function_call.go
+  s_4cef60f03847e9::t_40cc2b08b4795b 1-124
+vendor/github.com/jackc/pgx/v5/pgtype/register_default_pg_types.go
+  s_4cef60f03847e9::t_07db1662db46ba 1-35
+vendor/github.com/jackc/pgx/v5/large_objects.go
+  s_4cef60f03847e9::t_ba2c99b5889bd0 1-161
+vendor/golang.org/x/text/width/kind_string.go
+  s_4cef60f03847e9::t_6780980ad4d9d2 1-28
+vendor/golang.org/x/text/language/tags.go
+  s_4cef60f03847e9::t_8b58b24c34e735 1-145
+vendor/github.com/jackc/pgx/v5/pgtype/polygon.go
+  s_4cef60f03847e9::t_16018a837409a0 1-261
+vendor/github.com/jackc/pgx/v5/pgtype/multirange.go
+  s_4cef60f03847e9::t_2779a720cc8785 1-453
+vendor/golang.org/x/text/language/coverage.go
+  s_4cef60f03847e9::t_f16def497a3ca9 1-187
+vendor/golang.org/x/text/internal/language/tags.go
+  s_4cef60f03847e9::t_fc2b7552135c09 1-48
+vendor/golang.org/x/text/cases/icu.go
+  s_4cef60f03847e9::t_6ce93ee8b9628f 1-61
+vendor/github.com/jackc/pgx/v5/pgproto3/sasl_response.go
+  s_4cef60f03847e9::t_199785a1a0d2f4 1-56
+vendor/github.com/jackc/pgx/v5/stdlib/sql.go
+  s_4cef60f03847e9::t_41279ca794a3ea 1-909
+vendor/github.com/jackc/pgx/v5/values.go
+  s_4cef60f03847e9::t_f1ca613b463cdb 1-63
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_md5_password.go
+  s_4cef60f03847e9::t_324917c3b986f7 1-76
+vendor/github.com/jackc/pgx/v5/pgtype/pgtype_default.go
+  s_4cef60f03847e9::t_6fc777bb9e61b6 1-251
+vendor/github.com/jackc/pgx/v5/pgtype/int_test.go.erb
+  s_4cef60f03847e9::t_33322353f1807c 1-93
+vendor/github.com/jackc/pgx/v5/pgtype/pgtype.go
+  s_4cef60f03847e9::t_2c8ce0fa2fb50d 1-2067
+vendor/github.com/jackc/pgx/v5/pgtype/builtin_wrappers.go
+  s_4cef60f03847e9::t_0a8e02739b2668 1-952
+vendor/github.com/jackc/puddle/v2/README.md
+  s_4cef60f03847e9::t_b51b4177e1ced4 1-80
+vendor/golang.org/x/text/internal/language/lookup.go
+  s_4cef60f03847e9::t_a5ef2901a6c74e 1-412
+vendor/golang.org/x/text/language/parse.go
+  s_4cef60f03847e9::t_1102740b0d3b2d 1-256
+vendor/github.com/jackc/pgx/v5/pgtype/hstore.go
+  s_4cef60f03847e9::t_ea3a551c9ae2e6 1-502
+vendor/golang.org/x/text/internal/match.go
+  s_4cef60f03847e9::t_f7b61975d22d2b 1-67
+vendor/github.com/jackc/pgx/v5/pgconn/doc.go
+  s_4cef60f03847e9::t_dbcd87dfa485ac 1-64
+vendor/github.com/jackc/pgx/v5/CLAUDE.md
+  s_4cef60f03847e9::t_b5360f8421d781 1-73
+vendor/github.com/jackc/puddle/v2/LICENSE
+  s_4cef60f03847e9::t_2fb4da97a01e93 1-22
+vendor/golang.org/x/text/secure/precis/options.go
+  s_4cef60f03847e9::t_c9ca779dad76a8 1-157
+vendor/github.com/jackc/pgx/v5/pgtype/convert.go
+  s_4cef60f03847e9::t_3678107ee87249 1-108
+vendor/github.com/jackc/pgx/v5/pgtype/box.go
+  s_4cef60f03847e9::t_b9ec1c97601626 1-235
+vendor/github.com/jackc/pgx/v5/pgtype/integration_benchmark_test_gen.sh
+  s_4cef60f03847e9::t_918c9be8725e41 1-2
+vendor/github.com/jackc/pgx/v5/pgproto3/notice_response.go
+  s_4cef60f03847e9::t_ba0919d13e7b12 1-19
+vendor/github.com/jackc/pgx/v5/pgtype/tid.go
+  s_4cef60f03847e9::t_3d3764b8dcc711 1-240
+vendor/github.com/jackc/puddle/v2/doc.go
+  s_4cef60f03847e9::t_c90a0ba468a702 1-11
+vendor/github.com/jackc/pgx/v5/pgproto3/chunkreader.go
+  s_4cef60f03847e9::t_8d2e03a7790f23 1-90
+vendor/github.com/jackc/pgx/v5/internal/pgio/write.go
+  s_4cef60f03847e9::t_300575cca70cec 1-32
+vendor/github.com/jackc/pgx/v5/README.md
+  s_4cef60f03847e9::t_a5489f37db8644 1-192
+vendor/github.com/jackc/pgx/v5/extended_query_builder.go
+  s_4cef60f03847e9::t_e29a72ca0ab4a5 1-146
+vendor/golang.org/x/text/width/transform.go
+  s_4cef60f03847e9::t_7ccb0679c290ed 1-239
+vendor/github.com/jackc/puddle/v2/pool.go
+  s_4cef60f03847e9::t_7edffc9768dffd 1-710
+vendor/github.com/jackc/pgx/v5/doc.go
+  s_4cef60f03847e9::t_c472cb5e848e8a 1-220
+vendor/golang.org/x/text/cases/tables15.0.0.go
+  s_4cef60f03847e9::t_922dc0ba8d167e 1-2527
+vendor/github.com/jackc/pgx/v5/pgxpool/tx.go
+  s_4cef60f03847e9::t_1211f539f67d1d 1-83
+vendor/github.com/jackc/pgx/v5/pgtype/text.go
+  s_4cef60f03847e9::t_cc99af57a78039 1-226
+vendor/github.com/jackc/pgx/v5/pgtype/tsvector.go
+  s_4cef60f03847e9::t_bce8eeea0a843c 1-514
+vendor/github.com/jackc/puddle/v2/internal/genstack/stack.go
+  s_4cef60f03847e9::t_78ac72304d598d 1-39
+vendor/github.com/jackc/pgx/v5/pgconn/README.md
+  s_4cef60f03847e9::t_6867fca58872ac 1-29
+vendor/golang.org/x/text/internal/language/compact.go
+  s_4cef60f03847e9::t_4c086d79b62564 1-29
+vendor/github.com/jackc/pgx/v5/internal/sanitize/benchmark.sh
+  s_4cef60f03847e9::t_62aad8b62228f7 1-60
+vendor/github.com/jackc/pgpassfile/README.md
+  s_4cef60f03847e9::t_4d7abaaf6f29ff 1-8
+vendor/github.com/jackc/pgx/v5/derived_types.go
+  s_4cef60f03847e9::t_e2018cfdd29780 1-261
+vendor/github.com/jackc/pgx/v5/pgtype/inet.go
+  s_4cef60f03847e9::t_90edd08e5ab04c 1-197
+vendor/github.com/jackc/pgx/v5/pgproto3/ready_for_query.go
+  s_4cef60f03847e9::t_ef9e54c95f64d3 1-61
+vendor/golang.org/x/text/internal/language/tables.go
+  s_4cef60f03847e9::t_6ad3c7e49a623b 1-3494
+vendor/github.com/jackc/pgpassfile/LICENSE
+  s_4cef60f03847e9::t_2cf18751b8bce6 1-22
+vendor/github.com/jackc/pgx/v5/.golangci.yml
+  s_4cef60f03847e9::t_5079bb63556e24 1-28
+vendor/github.com/jackc/pgx/v5/pgconn/auth_oauth.go
+  s_4cef60f03847e9::t_aba1c05f32f6ad 1-67
+vendor/github.com/jackc/pgx/v5/tracer.go
+  s_4cef60f03847e9::t_8e209e5c99bebc 1-107
+vendor/github.com/jackc/pgx/v5/pgtype/text_format_only_codec.go
+  s_4cef60f03847e9::t_df3afaea186907 1-13
+vendor/github.com/jackc/pgx/v5/pgproto3/parse_complete.go
+  s_4cef60f03847e9::t_c0f77d0d8d7062 1-34
+vendor/github.com/jackc/pgx/v5/pgtype/timestamp.go
+  s_4cef60f03847e9::t_71a0519a61ee12 1-368
+vendor/github.com/jackc/pgx/v5/internal/pgio/README.md
+  s_4cef60f03847e9::t_d353445c7017e8 1-6
+vendor/golang.org/x/text/internal/language/parse.go
+  s_4cef60f03847e9::t_c7cc4ee99e5ef0 1-608
+vendor/github.com/jackc/puddle/v2/CHANGELOG.md
+  s_4cef60f03847e9::t_62c8bd9eafc52e 1-79
+vendor/golang.org/x/sync/semaphore/semaphore.go
+  s_4cef60f03847e9::t_5eff01dcc55c29 1-160
+vendor/github.com/jackc/pgx/v5/pgxpool/batch_results.go
+  s_4cef60f03847e9::t_cb72444a8155e5 1-52
+vendor/github.com/jackc/pgx/v5/pgproto3/negotiate_protocol_version.go
+  s_4cef60f03847e9::t_203d22821ee7df 1-93
+vendor/golang.org/x/text/runes/runes.go
+  s_4cef60f03847e9::t_f746f9ef5aab6a 1-355
+vendor/golang.org/x/text/internal/language/compose.go
+  s_4cef60f03847e9::t_c1f985af089989 1-167
+vendor/github.com/jackc/pgx/v5/pgtype/register_default_pg_types_disabled.go
+  s_4cef60f03847e9::t_6ac5ed7670a058 1-6
+vendor/golang.org/x/text/cases/map.go
+  s_4cef60f03847e9::t_a880d7c2bceedc 1-816
+vendor/github.com/jackc/pgx/v5/pgtype/time.go
+  s_4cef60f03847e9::t_062f8583211d1d 1-273
+vendor/github.com/jackc/pgx/v5/pgproto3/data_row.go
+  s_4cef60f03847e9::t_013bdefbc233d1 1-140
+vendor/github.com/jackc/pgx/v5/pgtype/line.go
+  s_4cef60f03847e9::t_96ab49acb76584 1-223
+vendor/golang.org/x/text/width/width.go
+  s_4cef60f03847e9::t_cf53562a745163 1-206
+vendor/github.com/jackc/pgx/v5/pgproto3/backend_key_data.go
+  s_4cef60f03847e9::t_c31cfa45aafa58 1-71
+vendor/github.com/jackc/pgx/v5/pgtype/date.go
+  s_4cef60f03847e9::t_13629d5ea14e62 1-412
+vendor/golang.org/x/text/secure/precis/profiles.go
+  s_4cef60f03847e9::t_63f1ae9aa97a06 1-78
+vendor/github.com/jackc/pgx/v5/pgtype/interval.go
+  s_4cef60f03847e9::t_38c6e96215799f 1-297
+vendor/github.com/jackc/pgx/v5/copy_from.go
+  s_4cef60f03847e9::t_7d2aad1e93eae0 1-276
+vendor/github.com/jackc/pgx/v5/pgtype/uint32.go
+  s_4cef60f03847e9::t_da51ab9c450bcc 1-352
+vendor/github.com/jackc/pgx/v5/pgtype/jsonb.go
+  s_4cef60f03847e9::t_59e0e214f0ba0e 1-129
+vendor/modules.txt
+  s_4cef60f03847e9::t_326123fdaba493 205-228,450,462-468,470,474
+vendor/github.com/jackc/puddle/v2/log.go
+  s_4cef60f03847e9::t_35296c56776de6 1-32
+vendor/github.com/jackc/pgx/v5/pgtype/doc.go
+  s_4cef60f03847e9::t_ad2c33ba425597 1-196
+vendor/golang.org/x/text/cases/info.go
+  s_4cef60f03847e9::t_1fd9c419b233b0 1-82
+vendor/golang.org/x/text/internal/internal.go
+  s_4cef60f03847e9::t_13cf81e4be6402 1-49
+vendor/github.com/jackc/pgx/v5/pgtype/composite.go
+  s_4cef60f03847e9::t_fa6a40270d6338 1-613
+vendor/github.com/jackc/pgx/v5/pgproto3/describe.go
+  s_4cef60f03847e9::t_b00cf9290c17b4 1-80
+vendor/golang.org/x/text/cases/cases.go
+  s_4cef60f03847e9::t_9382b9bf6e845b 1-162
+vendor/github.com/jackc/pgpassfile/pgpass.go
+  s_4cef60f03847e9::t_8653757f717420 1-110
+vendor/github.com/jackc/pgx/v5/pgtype/uint64.go
+  s_4cef60f03847e9::t_75a211e7e37a1a 1-323
+vendor/github.com/jackc/pgx/v5/pgtype/point.go
+  s_4cef60f03847e9::t_262964eb3ea4db 1-266
+vendor/github.com/jackc/pgx/v5/pgconn/errors.go
+  s_4cef60f03847e9::t_c9141d7f52bb47 1-287
+vendor/github.com/jackc/pgx/v5/pgproto3/doc.go
+  s_4cef60f03847e9::t_7ffc7038a65050 1-11
+vendor/golang.org/x/text/secure/precis/context.go
+  s_4cef60f03847e9::t_848ba012c1eeb7 1-139
+vendor/github.com/jackc/pgx/v5/pgproto3/command_complete.go
+  s_4cef60f03847e9::t_ff8a971e237602 1-66
+vendor/github.com/jackc/pgx/v5/pgconn/auth_scram.go
+  s_4cef60f03847e9::t_3e2ba9071683e3 1-407
+vendor/github.com/jackc/pgx/v5/pgproto3/copy_in_response.go
+  s_4cef60f03847e9::t_6840498fbcd28b 1-96
+vendor/github.com/jackc/pgx/v5/pgproto3/terminate.go
+  s_4cef60f03847e9::t_45e601e9e4b7f7 1-34
+vendor/github.com/jackc/pgx/v5/pgproto3/copy_fail.go
+  s_4cef60f03847e9::t_68a64bdd533ca1 1-49
+vendor/github.com/jackc/pgx/v5/pgproto3/bind.go
+  s_4cef60f03847e9::t_19c29bb06e84b6 1-223
+vendor/github.com/jackc/pgx/v5/pgconn/defaults_windows.go
+  s_4cef60f03847e9::t_23ba9f39c52113 1-57
+vendor/github.com/jackc/pgx/v5/pgtype/bool.go
+  s_4cef60f03847e9::t_e2c652c9480798 1-346
+vendor/github.com/jackc/pgservicefile/README.md
+  s_4cef60f03847e9::t_5e536795d4c3ce 1-7
+vendor/github.com/jackc/pgx/v5/pgtype/circle.go
+  s_4cef60f03847e9::t_38007714d02d1d 1-231
+vendor/golang.org/x/text/internal/language/match.go
+  s_4cef60f03847e9::t_a25179863a644e 1-226
+vendor/github.com/jackc/pgx/v5/pgxpool/doc.go
+  s_4cef60f03847e9::t_c7259d0f33fa5e 1-27
+vendor/github.com/jackc/puddle/v2/internal/genstack/gen_stack.go
+  s_4cef60f03847e9::t_9c68b250e9111f 1-85
+vendor/github.com/jackc/pgservicefile/LICENSE
+  s_4cef60f03847e9::t_cef7c6e79c26aa 1-22
+vendor/golang.org/x/text/internal/language/common.go
+  s_4cef60f03847e9::t_6f262d8c4d7a10 1-16
+vendor/github.com/jackc/pgx/v5/conn.go
+  s_4cef60f03847e9::t_db87e75f6ada9e 1-1472
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_cleartext_password.go
+  s_4cef60f03847e9::t_4b705dcc544d6e 1-50
+vendor/github.com/jackc/pgx/v5/pgproto3/close_complete.go
+  s_4cef60f03847e9::t_32f38451f765a8 1-34
+vendor/github.com/jackc/pgx/v5/pgproto3/copy_done.go
+  s_4cef60f03847e9::t_54e95f434ebe4b 1-37
+vendor/github.com/jackc/pgx/v5/pgtype/array.go
+  s_4cef60f03847e9::t_2967db0f0994b5 1-469
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_sasl_final.go
+  s_4cef60f03847e9::t_27ff5315677080 1-75
+vendor/github.com/jackc/pgx/v5/CONTRIBUTING.md
+  s_4cef60f03847e9::t_3b5bbf4170f806 1-139
+vendor/golang.org/x/text/width/trieval.go
+  s_4cef60f03847e9::t_7db342071bc946 1-30
+vendor/github.com/jackc/pgx/v5/pgproto3/backend.go
+  s_4cef60f03847e9::t_76900ae3dd6414 1-299
+vendor/github.com/jackc/pgx/v5/pgproto3/flush.go
+  s_4cef60f03847e9::t_5d49780445dbdb 1-34
+vendor/github.com/jackc/pgx/v5/pgtype/lseg.go
+  s_4cef60f03847e9::t_a1f6d73d872005 1-235
+vendor/github.com/jackc/pgx/v5/pgtype/array_codec.go
+  s_4cef60f03847e9::t_400b9f74185eed 1-428
+vendor/github.com/jackc/pgx/v5/pgtype/float8.go
+  s_4cef60f03847e9::t_de36b41647313a 1-369
+vendor/github.com/jackc/pgx/v5/pgproto3/gss_enc_request.go
+  s_4cef60f03847e9::t_e63749c27a4b9c 1-48
+vendor/github.com/jackc/pgx/v5/Rakefile
+  s_4cef60f03847e9::t_4b7332c6840038 1-18
+vendor/github.com/jackc/pgx/v5/pgproto3/portal_suspended.go
+  s_4cef60f03847e9::t_6367286c40ad29 1-34
+vendor/golang.org/x/text/cases/trieval.go
+  s_4cef60f03847e9::t_99be0784b9e684 1-217
+vendor/golang.org/x/text/cases/fold.go
+  s_4cef60f03847e9::t_23f08cada0146f 1-34
+vendor/github.com/jackc/pgx/v5/pgproto3/ssl_request.go
+  s_4cef60f03847e9::t_cfde92892989a0 1-48
+vendor/github.com/jackc/puddle/v2/nanotime.go
+  s_4cef60f03847e9::t_b87befbdf57bb3 1-16
+vendor/github.com/jackc/pgx/v5/CHANGELOG.md
+  s_4cef60f03847e9::t_53aac7b35e38c6 1-605
+vendor/golang.org/x/text/secure/precis/profile.go
+  s_4cef60f03847e9::t_750f757558b1dc 1-412
+vendor/github.com/jackc/pgx/v5/pgtype/numeric.go
+  s_4cef60f03847e9::t_8596a2d19ac4cf 1-843
+vendor/github.com/jackc/pgx/v5/internal/sanitize/sanitize.go
+  s_4cef60f03847e9::t_49a49e42173c43 1-541
+vendor/github.com/jackc/pgx/v5/pgproto3/close.go
+  s_4cef60f03847e9::t_b4f5b15f12d8dc 1-81
+vendor/github.com/jackc/pgx/v5/rows.go
+  s_4cef60f03847e9::t_76c92d73d99827 1-871
+vendor/github.com/jackc/pgx/v5/pgxpool/pool.go
+  s_4cef60f03847e9::t_e1af47de46471d 1-840
+vendor/github.com/jackc/pgservicefile/pgservicefile.go
+  s_4cef60f03847e9::t_da93b27c675a99 1-81
+vendor/golang.org/x/text/secure/precis/doc.go
+  s_4cef60f03847e9::t_1c1813f0c7db84 1-14
+vendor/github.com/jackc/pgx/v5/pgtype/enum_codec.go
+  s_4cef60f03847e9::t_348d0ead2d655f 1-109
+vendor/github.com/jackc/pgx/v5/pgproto3/no_data.go
+  s_4cef60f03847e9::t_7ce31e686448c5 1-34
+vendor/golang.org/x/text/language/language.go
+  s_4cef60f03847e9::t_00b8e159439b11 1-605
+vendor/github.com/jackc/pgx/v5/pgproto3/sync.go
+  s_4cef60f03847e9::t_b704a478a959f5 1-34
+vendor/golang.org/x/text/secure/precis/tables15.0.0.go
+  s_4cef60f03847e9::t_4a46eb1c861374 1-4315
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_gss_continue.go
+  s_4cef60f03847e9::t_4e08ab858122a3 1-67
+vendor/golang.org/x/text/internal/language/compact/tables.go
+  s_4cef60f03847e9::t_68564d8bcaa909 1-1015
+vendor/github.com/jackc/pgx/v5/pgconn/pgconn.go
+  s_4cef60f03847e9::t_1717bee61e38ef 1-3042
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_sasl_continue.go
+  s_4cef60f03847e9::t_7995420a220fe4 1-75
+vendor/github.com/jackc/pgx/v5/pgtype/integration_benchmark_test.go.erb
+  s_4cef60f03847e9::t_f7c28a3fab148c 1-62
+go.mod
+  s_4cef60f03847e9::t_bf4966e37c4799 17,78-80
+vendor/golang.org/x/text/language/doc.go
+  s_4cef60f03847e9::t_053bb920613cea 1-98
+vendor/golang.org/x/text/cases/context.go
+  s_4cef60f03847e9::t_d652f10eea69f5 1-376
+vendor/github.com/jackc/pgx/v5/pgxpool/stat.go
+  s_4cef60f03847e9::t_820cb26b0c9c2e 1-91
+vendor/golang.org/x/text/internal/tag/tag.go
+  s_4cef60f03847e9::t_0dc4fd15b4da85 1-100
+vendor/github.com/jackc/pgx/v5/pgtype/record_codec.go
+  s_4cef60f03847e9::t_dd2bac8174f6d1 1-123
+vendor/github.com/jackc/pgpassfile/.travis.yml
+  s_4cef60f03847e9::t_8ca159f15b5f96 1-9
+vendor/github.com/jackc/pgx/v5/pgproto3/bind_complete.go
+  s_4cef60f03847e9::t_47c215159b9ea9 1-34
+vendor/golang.org/x/text/secure/precis/class.go
+  s_4cef60f03847e9::t_71131bd2552e1b 1-36
+vendor/golang.org/x/text/width/tables17.0.0.go
+  s_4cef60f03847e9::t_dbc45323c7855a 1-1384
+vendor/github.com/jackc/pgx/v5/pgconn/require_auth.go
+  s_4cef60f03847e9::t_6fadc64b2c0d3b 1-146
+vendor/github.com/jackc/pgx/v5/pgconn/ctxwatch/context_watcher.go
+  s_4cef60f03847e9::t_6d3c0821b7a645 1-72
+vendor/github.com/jackc/pgx/v5/mise.toml
+  s_4cef60f03847e9::t_19213b6a415ff0 1-8
+vendor/github.com/jackc/pgx/v5/pgproto3/copy_both_response.go
+  s_4cef60f03847e9::t_7a487785c87ae9 1-95
+vendor/github.com/jackc/pgx/v5/pgproto3/sasl_initial_response.go
+  s_4cef60f03847e9::t_94d17a5fef4fea 1-93
+vendor/github.com/jackc/pgx/v5/pgtype/range.go
+  s_4cef60f03847e9::t_4607350ec1a3f2 1-331
+vendor/golang.org/x/text/secure/precis/nickname.go
+  s_4cef60f03847e9::t_bb97a5732cab14 1-72
+vendor/golang.org/x/text/runes/cond.go
+  s_4cef60f03847e9::t_69784948396647 1-187
+vendor/github.com/jackc/pgx/v5/pgproto3/password_message.go
+  s_4cef60f03847e9::t_c1c7909daea639 1-49
+vendor/github.com/jackc/pgx/v5/named_args.go
+  s_4cef60f03847e9::t_b0b5d0a8beb455 1-410
+vendor/github.com/jackc/pgx/v5/pgproto3/trace.go
+  s_4cef60f03847e9::t_333d4838cad55e 1-416
+vendor/github.com/jackc/pgx/v5/pgproto3/authentication_gss.go
+  s_4cef60f03847e9::t_83e5be3b67956c 1-58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "c56c31a1d99ef0f385cc5edc5b9aa9cc1319dfd5",
+  "prompts": {},
+  "sessions": {
+    "s_4cef60f03847e9": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0a43c7eeaffedrRdFuVRTmHRKj",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
