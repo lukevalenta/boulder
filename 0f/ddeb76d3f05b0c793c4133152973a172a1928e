@@ -1,0 +1,38 @@
+test/db_postgres.go
+  s_17b2a194cd9764::t_e80406d48fa383 31
+  s_17b2a194cd9764::t_6e3e8cf93ed1f5 1-30,32-104
+test/entrypoint.sh
+  s_17b2a194cd9764::t_2b4e985a89d63f 62-63,66-73
+  s_17b2a194cd9764::t_d782c4b2f0b786 34-51
+docker-compose.yml
+  s_17b2a194cd9764::t_8d7ff396f288d9 19-23
+  s_17b2a194cd9764::t_8b063925b3c97f 122
+  s_17b2a194cd9764::t_8c1fa54c53702b 106-121,123-133
+  s_17b2a194cd9764::t_9281340969f379 134
+test/startservers.py
+  s_17b2a194cd9764::t_a7d8b8b0c81098 12-13
+  s_17b2a194cd9764::t_f751d73a63cb19 40,44
+  s_17b2a194cd9764::t_c309ff594489d1 10-11,18-19,21
+  s_17b2a194cd9764::t_2819f6538206e7 14-17,20
+  s_17b2a194cd9764::t_3eb9368026bde9 172-176
+  s_17b2a194cd9764::t_1d0812293e4c63 177
+test/db.go
+  s_17b2a194cd9764::t_81dbeffecd1e80 40-53
+  s_17b2a194cd9764::t_6a0e77ac813da7 8
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "0fddeb76d3f05b0c793c4133152973a172a1928e",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
