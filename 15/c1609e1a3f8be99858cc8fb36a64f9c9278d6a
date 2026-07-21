@@ -1,0 +1,28 @@
+cmd/cert-checker/main.go
+  s_17b2a194cd9764::t_d39cd1207fa403 228-231,233-236
+  s_17b2a194cd9764::t_4f1e5af1ee1104 306
+  s_17b2a194cd9764::t_d517d05a060260 113,124-125,135-148,152-153
+  s_17b2a194cd9764::t_ae29610e6b7035 178
+  s_17b2a194cd9764::t_7f0f63eba3ec2d 671
+  s_17b2a194cd9764::t_72c23d7f3a664f 692-693
+cmd/cert-checker/main_test.go
+  s_17b2a194cd9764::t_30a5d730b40050 430
+cmd/cert-checker/db.go
+  s_17b2a194cd9764::t_875391f57d5fb0 1-93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "15c1609e1a3f8be99858cc8fb36a64f9c9278d6a",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
