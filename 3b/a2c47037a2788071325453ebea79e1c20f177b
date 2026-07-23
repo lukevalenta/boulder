@@ -1,0 +1,35 @@
+cmd/boulder-wfe2/main.go
+  s_17b2a194cd9764::t_e2b5401ce68e40 388-394
+  s_17b2a194cd9764::t_f79bb2fa4f9378 73-78
+  s_17b2a194cd9764::t_2edce780d4f81a 488
+  s_17b2a194cd9764::t_a02f8a503b735b 15
+probs/probs.go
+  s_17b2a194cd9764::t_978224a635c076 208-219
+  s_17b2a194cd9764::t_5e13f1cb74671b 15-17
+  s_17b2a194cd9764::t_89fc7715366b87 34-37
+  s_17b2a194cd9764::t_b96185e7c2722e 31-33
+  s_17b2a194cd9764::t_989ebbe6c52fd3 38-40
+wfe2/wfe.go
+  s_17b2a194cd9764::t_c409e04ebe381d 29
+  s_17b2a194cd9764::t_adbe8c20d3c139 277
+  s_17b2a194cd9764::t_a549fb92fbcd2b 222
+  s_17b2a194cd9764::t_4799d2d9263f32 97-101
+wfe2/wfe_test.go
+  s_17b2a194cd9764::t_dc284c2b9f9f72 436
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3ba2c47037a2788071325453ebea79e1c20f177b",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
