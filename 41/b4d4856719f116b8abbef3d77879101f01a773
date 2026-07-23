@@ -1,0 +1,32 @@
+accountbinding/proto/accountbinding.proto
+  s_17b2a194cd9764::t_a150653572d993 53-57
+  s_17b2a194cd9764::t_d8e1acb318c50d 12-14
+  s_17b2a194cd9764::t_e2bdd17263cbfc 25-29
+accountbinding/server.go
+  s_17b2a194cd9764::t_e33d08caa7cba9 108-119
+  s_17b2a194cd9764::t_935bc537ad6af1 33
+  s_17b2a194cd9764::t_accdee294c8cc5 16-20
+accountbinding/server_test.go
+  s_17b2a194cd9764::t_9bc0bc33259bcc 9-12
+  s_17b2a194cd9764::t_ae59cfe1b653ab 213-246
+  s_17b2a194cd9764::t_5a59b662131940 51-62
+  s_17b2a194cd9764::t_ab5889ff025b19 28-29
+accountbinding/store.go
+  s_17b2a194cd9764::t_a3e8dd1cae46bf 146-172
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "41b4d4856719f116b8abbef3d77879101f01a773",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
