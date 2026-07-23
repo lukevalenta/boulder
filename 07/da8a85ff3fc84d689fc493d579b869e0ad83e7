@@ -1,0 +1,38 @@
+accountbinding/server_test.go
+  s_17b2a194cd9764::t_286aad0adb8e04 1-194
+cmd/account-binding-service/main.go
+  s_17b2a194cd9764::t_7ba9f1d5e6bb3f 1-89
+accountbinding/server.go
+  s_17b2a194cd9764::t_c265a43290360b 1-101
+accountbinding/db/migrations/00002_roles_and_grants.sql
+  s_17b2a194cd9764::t_143c9656ed4dad 1-51
+accountbinding/db/migrations/00001_eab_schema.sql
+  s_17b2a194cd9764::t_183b3621ddc3cb 1-45
+accountbinding/store.go
+  s_17b2a194cd9764::t_45c69d8640334f 1-226
+cmd/boulder/main.go
+  s_17b2a194cd9764::t_de1474d72166d6 8
+  s_17b2a194cd9764::t_a940d66c66d1cd 9
+cmd/account-binding-service-migrate/main.go
+  s_17b2a194cd9764::t_5cfc7479d4a2b0 1-64
+accountbinding/db/db.go
+  s_17b2a194cd9764::t_de72d9b60589de 1-47
+accountbinding/database.go
+  s_17b2a194cd9764::t_24eff5c3005ff8 1-54
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "07da8a85ff3fc84d689fc493d579b869e0ad83e7",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
