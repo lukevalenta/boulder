@@ -13,6 +13,7 @@ ra/ra_test.go
   s_17b2a194cd9764::t_08f927d4ff0ad6 421-422
 features/features.go
   s_17b2a194cd9764::t_92025a7bb5464e 71,98-105
+  s_0a39c45e9ed1fb::t_61f8bea90fd674 97
 ra/ra.go
   s_17b2a194cd9764::t_8afc2a144d3dda 506-515,518-522
 ---
@@ -22,6 +23,14 @@ ra/ra.go
   "base_commit_sha": "502f23d4de4216161ff6c6821471e737a1e07a1e",
   "prompts": {},
   "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
     "s_17b2a194cd9764": {
       "agent_id": {
         "tool": "opencode",
