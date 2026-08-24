@@ -1,0 +1,28 @@
+sapg/writes_test.go
+  s_0a39c45e9ed1fb::t_31950da00665c5 300-364
+sapg/authz.go
+  s_0a39c45e9ed1fb::t_6f8ab101c159c1 122
+sapg/writes_classc_test.go
+  s_0a39c45e9ed1fb::t_4eaeb9e925feff 171-178
+sapg/reads_classb_test.go
+  s_0a39c45e9ed1fb::t_f76240ec231036 224
+sapg/writes_authz.go
+  s_0a39c45e9ed1fb::t_a244a45f911e9f 6
+  s_0a39c45e9ed1fb::t_be91ed89ad666b 99-164
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d17cfddb04c28860656fe6add4bd6e9faf078a5a",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
