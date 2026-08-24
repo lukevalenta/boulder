@@ -33,6 +33,8 @@ cmd/boulder-sa-pg-migrate/main.go
   s_17b2a194cd9764::t_749433ffe12fae 1-64
 docker-compose.yml
   s_17b2a194cd9764::t_d3209fb718b306 122-127
+go.mod
+  s_0a39c45e9ed1fb::t_da82888e824728 96
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -40,6 +42,14 @@ docker-compose.yml
   "base_commit_sha": "e283c7923089f24ce6eada6c2d65afef1f02aad2",
   "prompts": {},
   "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
     "s_17b2a194cd9764": {
       "agent_id": {
         "tool": "opencode",
