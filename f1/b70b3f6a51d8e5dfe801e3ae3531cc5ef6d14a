@@ -1,0 +1,19 @@
+sapg/db/migrations/00001_sa_schema.sql
+  s_0a39c45e9ed1fb::t_19cae73b485d8e 58
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f1b70b3f6a51d8e5dfe801e3ae3531cc5ef6d14a",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
