@@ -1,0 +1,66 @@
+docs/cloudflare-account-gating.md
+  s_17b2a194cd9764::t_7ab75abb242cd3 409-425
+  s_17b2a194cd9764::t_3f09e106e61ee1 13-39
+  s_17b2a194cd9764::t_5115f92b63bea8 480-483
+  s_17b2a194cd9764::t_de9aff00df5007 458-460
+  s_17b2a194cd9764::t_2350788138cceb 112-113,119,121-123
+  s_17b2a194cd9764::t_3fceb2336cafc8 280-284
+  s_17b2a194cd9764::t_f62c3bcad02f66 444-446
+  s_17b2a194cd9764::t_0f860f9207547b 385-393
+  s_17b2a194cd9764::t_c2b73556141460 364-365
+  s_17b2a194cd9764::t_b84c302071fed7 81-83
+  s_17b2a194cd9764::t_8ddb357b4a7d80 207-210
+  s_17b2a194cd9764::t_7e6621c0d938c7 309-310
+  s_17b2a194cd9764::t_ce76212d211cdb 319-322
+  s_17b2a194cd9764::t_972f1c5e9ee022 87-89
+  s_17b2a194cd9764::t_8ede5b7bc6a491 435-439
+cmd/bad-key-revoker/db_postgres.go
+  s_0a39c45e9ed1fb::t_fc8610965b4154 6,8-9
+  s_0a39c45e9ed1fb::t_e19eec1063a109 104-116
+mtca/mtca_test.go
+  s_0a39c45e9ed1fb::t_6a6b9c243f7d0d 278
+sapg/db/migrations/00001_sa_schema.sql
+  s_0a39c45e9ed1fb::t_19cae73b485d8e 58
+sapg/writes_test.go
+  s_0a39c45e9ed1fb::t_31950da00665c5 300-364
+sapg/authz.go
+  s_0a39c45e9ed1fb::t_6f8ab101c159c1 122
+sapg/writes_classc_test.go
+  s_0a39c45e9ed1fb::t_4eaeb9e925feff 171-178
+sapg/reads_classb_test.go
+  s_0a39c45e9ed1fb::t_f76240ec231036 224
+sapg/writes_authz.go
+  s_0a39c45e9ed1fb::t_a244a45f911e9f 6
+  s_0a39c45e9ed1fb::t_be91ed89ad666b 99-164
+go.sum
+  s_0a39c45e9ed1fb::t_70af37f50c5a3c 66,253,256-257,391
+vendor/golang.org/x/sync/semaphore/semaphore.go
+  s_0a39c45e9ed1fb::t_3521b0b7fc01f9 86,142,148-150
+docs/cloudflare-fork.md
+  s_0a39c45e9ed1fb::t_e0bad3336c1f94 104-106
+  s_0a39c45e9ed1fb::t_1e733a8adc01eb 321-323
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "c77007954212e6f2d01910f09ff1f00098c0f863",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

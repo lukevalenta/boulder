@@ -1,0 +1,44 @@
+test/config-next/postgres/account_binding_dburl
+  s_17b2a194cd9764::t_d4116e288ccb56 1
+test/config-next/account-binding-service.json
+  s_17b2a194cd9764::t_ca6b4f322ccef0 1-39
+test/config-next/wfe2-eab.json
+  s_17b2a194cd9764::t_2bb24770163479 1-183
+test/consul/config.hcl
+  s_17b2a194cd9764::t_655754e8d6baba 36-56
+cmd/boulder/main_test.go
+  s_17b2a194cd9764::t_aa19431dcf6ba9 47-50
+  s_17b2a194cd9764::t_f31b7b78a3a328 17-18
+  s_17b2a194cd9764::t_fbc8d28b138e84 60-70
+test/certs/generate.sh
+  s_17b2a194cd9764::t_3d7d6f5fad9704 44
+test/startservers.py
+  s_17b2a194cd9764::t_3208bcc4576012 172-190
+  s_17b2a194cd9764::t_99309a0858c61d 258-272
+  s_17b2a194cd9764::t_6c3950e6cefbb8 298-299
+test/config/postgres/account_binding_dburl
+  s_17b2a194cd9764::t_cf33a221bd659e 1
+docker-compose.yml
+  s_17b2a194cd9764::t_ad5e3590242ad7 134-153
+test/entrypoint.sh
+  s_17b2a194cd9764::t_c85d94df798026 51-58
+  s_17b2a194cd9764::t_8d87e96791e95e 79
+test/integration/account_binding_test.go
+  s_17b2a194cd9764::t_1d34cb60007247 1-183
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3a3c3211257ebe228c19122e0f4ccb96253bf05e",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
