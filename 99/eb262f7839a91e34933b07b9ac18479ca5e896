@@ -5,8 +5,15 @@ cmd/bad-key-revoker/main.go
   s_17b2a194cd9764::t_c2b5454d478317 105,114
   s_17b2a194cd9764::t_cad8af08337b04 133
   s_17b2a194cd9764::t_69b48a18125eff 328
+  s_0a39c45e9ed1fb::t_2fa44f18be6f66 194,196
 cmd/bad-key-revoker/db.go
   s_17b2a194cd9764::t_b643d39fc95475 1-4,6-7,9-33,37-123
+  s_0a39c45e9ed1fb::t_cd464b3ead3722 5,8
+  s_0a39c45e9ed1fb::t_c4d6cd6d01b77b 34-36
+  s_0a39c45e9ed1fb::t_a9604a0c946dcb 124-135
+cmd/bad-key-revoker/main_test.go
+  s_0a39c45e9ed1fb::t_b6b2f1a71fe148 68,216,238,288,311,352,471
+  s_0a39c45e9ed1fb::t_97fbc9ac4f69b4 426
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -14,6 +21,14 @@ cmd/bad-key-revoker/db.go
   "base_commit_sha": "99eb262f7839a91e34933b07b9ac18479ca5e896",
   "prompts": {},
   "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
     "s_17b2a194cd9764": {
       "agent_id": {
         "tool": "opencode",
