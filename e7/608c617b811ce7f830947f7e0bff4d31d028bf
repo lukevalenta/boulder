@@ -1,0 +1,29 @@
+sapg/writes_cfstatus_test.go
+  s_17b2a194cd9764::t_6e67e4bc0767ac 1-61
+sa/proto/sa.proto
+  s_17b2a194cd9764::t_55d1c861c97d19 101-105
+  s_17b2a194cd9764::t_0e4734a1e6c0e4 511-519
+sa/sa.go
+  s_17b2a194cd9764::t_8ad3b3b06715b1 1743-1750
+sapg/writes_cfstatus.go
+  s_17b2a194cd9764::t_f06fa73bbbaf31 1-44
+wfe2/accountbinding_test.go
+  s_17b2a194cd9764::t_047ae7aa189841 19
+  s_17b2a194cd9764::t_8c82fe296c4293 44-47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e7608c617b811ce7f830947f7e0bff4d31d028bf",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+cmd/admin/cf_account_test.go
+  s_17b2a194cd9764::t_f35bbddf340194 1-105
+sapg/reads_streams.go
+  s_17b2a194cd9764::t_034142db4fe5a0 150-192
+sa/proto/sa.proto
+  s_17b2a194cd9764::t_0e2ef061d228de 43-46
+  s_17b2a194cd9764::t_de84da608e16be 79
+  s_17b2a194cd9764::t_0ccea834530672 525-542
+cmd/admin/admin.go
+  s_17b2a194cd9764::t_46089cd5a88697 42
+  s_17b2a194cd9764::t_3de21de179ad0a 13
+cmd/admin/cf_account.go
+  s_17b2a194cd9764::t_56415ce9e97801 1-149
+sa/saro.go
+  s_17b2a194cd9764::t_9eeb763fb9ef6c 1105-1112
+mocks/sa.go
+  s_17b2a194cd9764::t_70dc0d4b17c19c 242-246
+cmd/admin/dryrun.go
+  s_17b2a194cd9764::t_40228c4513d56a 57-61
+  s_17b2a194cd9764::t_65372d66a93520 10
+sapg/reads_streams_cfbinding_test.go
+  s_17b2a194cd9764::t_1fb5dba962d042 1-63
+cmd/admin/main.go
+  s_17b2a194cd9764::t_b5e12d814af7e3 81-83
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "db89d43eccacc6cf801ffed9ec20a804460ee281",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+sapg/consumers.go
+  s_17b2a194cd9764::t_ec5808b6f50d63 122-123
+  s_17b2a194cd9764::t_e633a58bf4e2b1 1-10,12-121,124-156
+  s_17b2a194cd9764::t_999e0f3bab5b0f 11
+cmd/cert-checker/main.go
+  s_17b2a194cd9764::t_b13280b8cc5154 705-719
+cmd/cert-checker/db_postgres.go
+  s_17b2a194cd9764::t_da461a1dc0c6c2 1-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8e9de454b12211443b3114e30d934c98c2686aab",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

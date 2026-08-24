@@ -1,0 +1,27 @@
+cmd/boulder/main.go
+  s_17b2a194cd9764::t_cd98713f34cf33 11
+test/config-next/cf-account-status-feed.json
+  s_17b2a194cd9764::t_6c27e8af9bbd39 1-40
+cmd/cf-account-status-feed/main.go
+  s_17b2a194cd9764::t_03fc3bc0313a97 1-288
+cmd/boulder/main_test.go
+  s_17b2a194cd9764::t_20265dff6d6358 71-76
+cmd/cf-account-status-feed/main_test.go
+  s_17b2a194cd9764::t_6e7a8567f17017 1-154
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "98a893eb349845bbac52efbdd0ef983d46b5fbec",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

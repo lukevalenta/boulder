@@ -1,0 +1,21 @@
+sapg/database.go
+  s_17b2a194cd9764::t_26d8335efe8c3f 24-33
+docs/cloudflare-fork.md
+  s_17b2a194cd9764::t_9ccb0413556ca8 397-406
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a961396fde6c5a06e6b5c3b3e8273300b3da5d0f",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+docs/cloudflare-sops.md
+  s_17b2a194cd9764::t_20a928e074a6b2 71
+test/startservers.py
+  s_17b2a194cd9764::t_b21a54bccfd7e5 223-238
+  s_17b2a194cd9764::t_d890cfc02aa7d3 260-264
+sapg/db/migrations/00002_incidents_schema.sql
+  s_17b2a194cd9764::t_f54142ba362a76 1-39
+docs/cloudflare-fork.md
+  s_17b2a194cd9764::t_e759663685f8c6 277-279
+  s_17b2a194cd9764::t_94ddfd727a46d9 123-126
+  s_17b2a194cd9764::t_34b638c51d36b7 213-218,220-239
+  s_17b2a194cd9764::t_791416ec512bbd 189-190
+  s_17b2a194cd9764::t_9a468d4098705f 392-396
+  s_17b2a194cd9764::t_493a528dafb092 60-64
+cmd/boulder/main.go
+  s_17b2a194cd9764::t_ef73b5b33ebe6d 15
+sapg/db/migrations/00004_roles_and_grants.sql
+  s_17b2a194cd9764::t_03d4f2588dd423 1-121
+sapg/db/migrations/00001_sa_schema.sql
+  s_17b2a194cd9764::t_c51535f91ce076 1-57,59-285
+sapg/db/migrations/00003_mtcmeta_schema.sql
+  s_17b2a194cd9764::t_8fe6ca642297d9 1-43
+docs/cloudflare-account-gating.md
+  s_17b2a194cd9764::t_bfe616cd989cfd 179-180
+  s_17b2a194cd9764::t_08b47a752213cb 304-305
+sapg/main_test.go
+  s_17b2a194cd9764::t_b288a67e75f2b4 5,10,17-22,34-36,38,40,42,44
+sapg/run-tests.sh
+  s_17b2a194cd9764::t_19ce1d9483e16a 5-6
+sapg/db/db.go
+  s_17b2a194cd9764::t_300ca58cc1efa3 1-42
+cmd/boulder-sa-pg-migrate/main.go
+  s_17b2a194cd9764::t_749433ffe12fae 1-64
+docker-compose.yml
+  s_17b2a194cd9764::t_d3209fb718b306 122-127
+go.mod
+  s_0a39c45e9ed1fb::t_da82888e824728 96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3e56dd7db1f4464286e9daac693920907520d741",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
