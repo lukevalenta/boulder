@@ -5,6 +5,7 @@ cmd/cert-checker/main.go
   s_17b2a194cd9764::t_ae29610e6b7035 187
   s_17b2a194cd9764::t_7f0f63eba3ec2d 707
   s_17b2a194cd9764::t_72c23d7f3a664f 736-737
+  s_0a39c45e9ed1fb::t_74fd5ca23d176c 140,151,153
 cmd/cert-checker/main_test.go
   s_17b2a194cd9764::t_30a5d730b40050 431
 cmd/cert-checker/db.go
@@ -16,6 +17,14 @@ cmd/cert-checker/db.go
   "base_commit_sha": "aeff0cae4a5fc6bfb7368c6c3b0deedf547b3ae4",
   "prompts": {},
   "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
     "s_17b2a194cd9764": {
       "agent_id": {
         "tool": "opencode",
