@@ -1,0 +1,21 @@
+go.sum
+  s_0a39c45e9ed1fb::t_70af37f50c5a3c 66,253,256-257,391
+vendor/golang.org/x/sync/semaphore/semaphore.go
+  s_0a39c45e9ed1fb::t_3521b0b7fc01f9 86,142,148-150
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "52b278a2cff93233d50b5b5522ce2ae7baf84673",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
