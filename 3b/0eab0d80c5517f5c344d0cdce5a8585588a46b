@@ -1,0 +1,43 @@
+cmd/boulder-ra/main.go
+  s_17b2a194cd9764::t_d016f97be2a03f 319-330
+  s_17b2a194cd9764::t_abd127056dbd7d 122-129
+grpc/pb-marshalling.go
+  s_17b2a194cd9764::t_0602ee0d836a1f 248-254
+  s_17b2a194cd9764::t_ec0d01e7386233 270-276
+ra/cfaccountstatus_test.go
+  s_17b2a194cd9764::t_45108e59454135 1-111
+sapg/reads_test.go
+  s_17b2a194cd9764::t_da0b6eabfecabc 111-112,122-149
+  s_17b2a194cd9764::t_600c64a6a5f02a 150-151
+sapg/reads.go
+  s_17b2a194cd9764::t_058877e5190fb9 37-42,45-49,51,60-66
+wfe2/wfe.go
+  s_17b2a194cd9764::t_732875d286973c 2668-2672
+ra/proto/ra.proto
+  s_17b2a194cd9764::t_a66ec6da43b974 107-113
+grpc/pb-marshalling_test.go
+  s_17b2a194cd9764::t_5980e83be01820 179-185
+ra/cfaccountstatus.go
+  s_17b2a194cd9764::t_43d0d1d40e518e 1-149
+core/objects.go
+  s_17b2a194cd9764::t_100db99ce704a9 101-108
+ra/ra.go
+  s_17b2a194cd9764::t_ec91de4a4bc25d 2178-2189
+  s_17b2a194cd9764::t_4d7d58ce5b61c8 106-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3b0eab0d80c5517f5c344d0cdce5a8585588a46b",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+cmd/boulder-mtpublisher/main.go
+  s_17b2a194cd9764::t_82ac56a2d93245 96
+mtpublisher/db.go
+  s_17b2a194cd9764::t_ebd336d64a54b7 11,14-16
+  s_17b2a194cd9764::t_d7afb8033de97a 3-10,12-13,17-39,47-59
+mtpublisher/mtpublisher.go
+  s_17b2a194cd9764::t_cc2762af91c987 117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "78e7eedd806ede9c09c0e024132aef2e973df812",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

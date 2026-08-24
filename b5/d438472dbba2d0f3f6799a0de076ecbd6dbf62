@@ -1,0 +1,46 @@
+docs/cloudflare-account-gating.md
+  s_17b2a194cd9764::t_493537c3dfed91 1-2,4-342
+  s_17b2a194cd9764::t_4852c8afbb6459 3
+docs/cloudflare-fork.md
+  s_17b2a194cd9764::t_24134f0cf12ec6 341
+  s_17b2a194cd9764::t_f5403276870710 282
+  s_17b2a194cd9764::t_702187e13a73b9 30,36
+  s_17b2a194cd9764::t_9e7d4e4972f793 200-204,206-209,211
+  s_17b2a194cd9764::t_6d91cc509eede1 354-355,357-380,382-393
+  s_17b2a194cd9764::t_3dd6aa610047bf 19-29,31-35
+  s_17b2a194cd9764::t_a411cdda908851 325-329
+  s_17b2a194cd9764::t_0e84eb18008817 12-18
+  s_17b2a194cd9764::t_ef2a00fdd3c7cd 356
+  s_17b2a194cd9764::t_4cd827f960fea5 153
+  s_17b2a194cd9764::t_c5fcbfd5da8703 131
+  s_17b2a194cd9764::t_7806b19053ce88 205
+  s_17b2a194cd9764::t_ec55d40abcea7a 196-199
+  s_17b2a194cd9764::t_02d696df32c42c 210,212-214
+  s_17b2a194cd9764::t_5e4c1377aabaf7 381
+  s_17b2a194cd9764::t_df7197c5499c26 9-11
+  s_17b2a194cd9764::t_141cd619c7a315 37-39,128-130
+  s_17b2a194cd9764::t_2d8f230df9a88b 132-134,150-152
+  s_17b2a194cd9764::t_d0bb05d92a72f2 154-156,193-195
+  s_17b2a194cd9764::t_8140b27ece838e 215-217,279-281
+  s_17b2a194cd9764::t_9729a3ccb91347 283-285,322-324
+  s_17b2a194cd9764::t_b6d5ff318a5053 330-332,338-340
+  s_17b2a194cd9764::t_5dc2fc08c720b9 342-344,351-353
+docs/cloudflare-sops.md
+  s_17b2a194cd9764::t_2232e4075f8d27 1-129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b5d438472dbba2d0f3f6799a0de076ecbd6dbf62",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

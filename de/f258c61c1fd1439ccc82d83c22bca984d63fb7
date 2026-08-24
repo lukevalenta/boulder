@@ -1,0 +1,29 @@
+test/config-next/account-binding-service.json
+  s_17b2a194cd9764::t_55895d2d02f86a 17-18
+test/integration/account_binding_test.go
+  s_17b2a194cd9764::t_6b46a591d10c1f 184-240
+test/config-next/ra.json
+  s_17b2a194cd9764::t_e313403fabdfa7 32
+test/config-next/sa.json
+  s_17b2a194cd9764::t_9a3b188d57db3d 32
+test/startservers.py
+  s_17b2a194cd9764::t_365ba5030fea69 189-195
+test/certs/generate.sh
+  s_17b2a194cd9764::t_b031eadb9ac05a 44-45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "def258c61c1fd1439ccc82d83c22bca984d63fb7",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

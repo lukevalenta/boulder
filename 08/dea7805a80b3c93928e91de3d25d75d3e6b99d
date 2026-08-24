@@ -1,0 +1,25 @@
+sapg/db/migrations/00005_cf_account_bindings.sql
+  s_17b2a194cd9764::t_db79eae7d528f9 1-43
+sapg/writes_cfbinding.go
+  s_17b2a194cd9764::t_ba8b2d4873bd09 1-54
+sapg/writes_cfbinding_test.go
+  s_17b2a194cd9764::t_90cc85a0ce1cd4 1-100
+sapg/reads_test.go
+  s_17b2a194cd9764::t_2f56ff620b85bf 42-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "08dea7805a80b3c93928e91de3d25d75d3e6b99d",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+docker-compose.yml
+  s_17b2a194cd9764::t_d7b0f251c341ac 123,127-131
+sapg/schema/grants.sql
+  s_17b2a194cd9764::t_fa1e706726a24d 1-95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2c25753624c58c6bc2cc1cd6c086e3ff1a3f4d9c",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

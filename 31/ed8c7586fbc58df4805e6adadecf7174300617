@@ -1,0 +1,137 @@
+sapg/sapg.go
+  s_17b2a194cd9764::t_7e63dfedf328d5 1-11,18-34,41-42,44-49,53,55-58
+  s_17b2a194cd9764::t_ad2c4449929b23 12-17
+  s_17b2a194cd9764::t_a2bb7f35bdf00a 35-40,43,50-52,54
+sapg/writes_authz.go
+  s_17b2a194cd9764::t_1c4c53783728ab 1-97
+sapg/database.go
+  s_17b2a194cd9764::t_8f804767f3c57c 1-10,12-22,27-53,60-61
+  s_17b2a194cd9764::t_f222c1820f1030 58-59
+  s_17b2a194cd9764::t_96b38a6ee57584 11,23-26,54-57
+sapg/storageauthority.go
+  s_17b2a194cd9764::t_4980a94a13b6d2 1-10,20,23-30,32
+  s_17b2a194cd9764::t_92ef8073b8aadf 11-19,21-22,31
+sapg/writes_revoke.go
+  s_17b2a194cd9764::t_936a0d4a019100 1-141
+sapg/reads_more.go
+  s_17b2a194cd9764::t_d524cf2761ed97 7,15
+  s_17b2a194cd9764::t_3c9655427179e1 1-6,8-14,16-81,129-170
+  s_17b2a194cd9764::t_21029b87043fce 82-128
+sapg/errors.go
+  s_17b2a194cd9764::t_31b108be6dd5c1 1-7
+sapg/query.go
+  s_17b2a194cd9764::t_3e2bcfbb355a48 1-23
+sapg/writes_admin.go
+  s_17b2a194cd9764::t_4493064880eff7 1-187
+sapg/orders.go
+  s_17b2a194cd9764::t_8ea83010f58c86 102-107,112-117,131
+  s_17b2a194cd9764::t_aa2a4a0233a285 1-101,108-111,118-130,132-256
+sapg/writes.go
+  s_17b2a194cd9764::t_6a84f53cde7a3e 1-348
+sapg/admin.go
+  s_17b2a194cd9764::t_55418b3a893fa2 1-9,13,15-25
+  s_17b2a194cd9764::t_4a3e2af23d0316 10-12,14
+sapg/schema/sa.sql
+  s_17b2a194cd9764::t_46ca110b3bc3f3 132
+  s_17b2a194cd9764::t_bdf2390ab331da 1-131,133-262
+sapg/reads_fqdn.go
+  s_17b2a194cd9764::t_3d2e9a682d6630 1-74
+sapg/readonly.go
+  s_17b2a194cd9764::t_fb49b5e3a29b7b 1-9,14,16-27
+  s_17b2a194cd9764::t_b6e70b03ab59b7 10-13,15
+sapg/reads.go
+  s_17b2a194cd9764::t_7ad8e991f9205e 1-299
+sapg/reads_authz.go
+  s_17b2a194cd9764::t_f563b637013731 1-200
+sapg/grpc_smoke_test.go
+  s_17b2a194cd9764::t_1c56f16ae28461 1-10,12-122,124-127
+  s_17b2a194cd9764::t_9617fd8e1c3704 11
+  s_17b2a194cd9764::t_66887be7eb885f 123
+sapg/identifiers.go
+  s_17b2a194cd9764::t_c6b6f3ee999686 1-22
+sapg/authz.go
+  s_17b2a194cd9764::t_3827d6cece70bb 225-228,237-240
+  s_17b2a194cd9764::t_1ecd5dfef2e827 125
+  s_17b2a194cd9764::t_559a8d2290c096 1-124,126-224,229-236,241-244
+sapg/writes_test.go
+  s_17b2a194cd9764::t_f0d5bfefae8a78 1-296
+sapg/main_test.go
+  s_17b2a194cd9764::t_389c244bf5bfbf 1-58
+sapg/health_test.go
+  s_17b2a194cd9764::t_7fe90180ed3868 1-32
+sapg/reads_orders.go
+  s_17b2a194cd9764::t_cfe82c51ae463e 1-125
+sapg/reads_more_test.go
+  s_17b2a194cd9764::t_5fa45d7c733ab1 9,12
+  s_17b2a194cd9764::t_bdde13a2d9d0eb 1-8,10-11,13-197
+sapg/schema/incidents.sql
+  s_17b2a194cd9764::t_74fc9b995c8ede 1-28
+sapg/writes_admin_test.go
+  s_17b2a194cd9764::t_d62d067436f3a2 1-154
+sapg/writes_classc_test.go
+  s_17b2a194cd9764::t_f682207881dacd 1-293
+sapg/writes_pause.go
+  s_17b2a194cd9764::t_a7d7322f9e10b4 1-125
+sapg/writes_crl.go
+  s_17b2a194cd9764::t_fcbd039b35d4c9 1-7,9-10,12-178
+  s_17b2a194cd9764::t_287c94aff27c1f 8,11
+sapg/run-tests.sh
+  s_17b2a194cd9764::t_ac660c1f901ae6 1-36
+sapg/metrics.go
+  s_17b2a194cd9764::t_66132b4023feb7 114-128
+  s_17b2a194cd9764::t_c07fc76730f2f9 1-4,6-113,129-139
+  s_17b2a194cd9764::t_9aef4f11679a82 5
+sapg/writes_orders.go
+  s_17b2a194cd9764::t_eace8735b65398 9
+  s_17b2a194cd9764::t_8831fcff0043aa 77,79-105
+  s_17b2a194cd9764::t_9ff09f8e243e57 1-8,10-76,78,106-205
+sapg/metrics_test.go
+  s_17b2a194cd9764::t_90a6e3718555e0 1-50
+sapg/reads_classb_test.go
+  s_17b2a194cd9764::t_0c90a1a2de254b 1-283
+cmd/boulder-sa-pg/main.go
+  s_17b2a194cd9764::t_4bb02c4ebe53f6 1-30,35-75,81,86-87,90-94,99-110
+  s_17b2a194cd9764::t_c2431d7b5c182d 79,84
+  s_17b2a194cd9764::t_23c3970567025e 76-78,80,82-83,85,88-89,95,97-98
+  s_17b2a194cd9764::t_9c9b27790937e8 96
+  s_17b2a194cd9764::t_c05129a4efb05b 31-34
+sapg/writes_cert.go
+  s_17b2a194cd9764::t_4d87e0aca412c7 1-197
+sapg/health.go
+  s_17b2a194cd9764::t_ac3d722e7f9a44 1-17
+sapg/reads_incidents.go
+  s_17b2a194cd9764::t_90cb041bd13647 7
+  s_17b2a194cd9764::t_d78e8d7c1ac416 1-6,8-22,25-29,31-32,34-39,41-154
+  s_17b2a194cd9764::t_cd092a876f6d67 23-24,30,33,40
+sapg/db.go
+  s_17b2a194cd9764::t_1c12a15bc4827f 1-38
+sapg/writes_overrides.go
+  s_17b2a194cd9764::t_dcbd18a7601bc5 1-170
+sapg/reads_test.go
+  s_17b2a194cd9764::t_cf53162bc1eacd 1-37,42-150
+  s_17b2a194cd9764::t_60656ed63a1590 38-39
+  s_17b2a194cd9764::t_c0e4b977a2b074 41
+  s_17b2a194cd9764::t_0d93317801022b 40
+sapg/reads_streams.go
+  s_17b2a194cd9764::t_8581c07c9c9628 1-7,9-117,119-157
+  s_17b2a194cd9764::t_194917894128e0 8
+  s_17b2a194cd9764::t_3358c2dbbde584 118
+.gitlab-ci.yml
+  s_17b2a194cd9764::t_9bbe0aff00c28e 1-50
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "31ed8c7586fbc58df4805e6adadecf7174300617",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}

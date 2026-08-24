@@ -1,0 +1,23 @@
+mtpublisher/db_postgres.go
+  s_17b2a194cd9764::t_96b1b5883613b0 1-43
+cmd/boulder-mtpublisher/main.go
+  s_17b2a194cd9764::t_f17124853dc210 94-108
+sapg/schema/mtcmeta.sql
+  s_17b2a194cd9764::t_c062f9513cfc50 1-39
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1e57e852fc5f191cb25483848a1488d2b40fcd53",
+  "prompts": {},
+  "sessions": {
+    "s_17b2a194cd9764": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_0b2471f69fferhywrrZFYzOnb0",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
