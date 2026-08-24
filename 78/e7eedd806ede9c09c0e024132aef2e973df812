@@ -1,10 +1,20 @@
 cmd/boulder-mtpublisher/main.go
   s_17b2a194cd9764::t_82ac56a2d93245 96
+  s_0a39c45e9ed1fb::t_2482cbf3af632d 103
 mtpublisher/db.go
   s_17b2a194cd9764::t_ebd336d64a54b7 11,14-16
   s_17b2a194cd9764::t_d7afb8033de97a 3-10,12-13,17-39,47-59
+  s_0a39c45e9ed1fb::t_2efe6d7f0bc90a 40-46
+  s_0a39c45e9ed1fb::t_975f6106f289bf 1-2
 mtpublisher/mtpublisher.go
   s_17b2a194cd9764::t_cc2762af91c987 117
+  s_0a39c45e9ed1fb::t_d18b83b968ce1d 29-32,34,47-50
+  s_0a39c45e9ed1fb::t_19a85d39b27d78 74
+  s_0a39c45e9ed1fb::t_52974f2c501c40 154
+mtpublisher/mtpublisher_test.go
+  s_0a39c45e9ed1fb::t_128f0014e12550 263
+  s_0a39c45e9ed1fb::t_6238d3658746c9 149
+  s_0a39c45e9ed1fb::t_c6cab65c918323 243
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -12,6 +22,14 @@ mtpublisher/mtpublisher.go
   "base_commit_sha": "78e7eedd806ede9c09c0e024132aef2e973df812",
   "prompts": {},
   "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
     "s_17b2a194cd9764": {
       "agent_id": {
         "tool": "opencode",
