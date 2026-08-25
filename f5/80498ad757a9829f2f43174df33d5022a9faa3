@@ -1,0 +1,21 @@
+wfe2/accountbinding_test.go
+  s_0a39c45e9ed1fb::t_964fc3a11befa6 90
+wfe2/wfe.go
+  s_0a39c45e9ed1fb::t_b4abfecdf93d27 801-804
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f580498ad757a9829f2f43174df33d5022a9faa3",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
