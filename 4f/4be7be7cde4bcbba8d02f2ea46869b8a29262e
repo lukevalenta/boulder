@@ -1,0 +1,19 @@
+sapg/db/migrations/00004_roles_and_grants.sql
+  s_0a39c45e9ed1fb::t_4b555c6c507977 91-92,94,96
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "4f4be7be7cde4bcbba8d02f2ea46869b8a29262e",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
