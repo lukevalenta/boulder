@@ -1,0 +1,21 @@
+test/startservers.py
+  s_0a39c45e9ed1fb::t_2eaf0619c8c214 16-22,25
+test/integration/issuance_test.go
+  s_0a39c45e9ed1fb::t_787c461872a8ee 189-194
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d4fac7032cb04a326a5c66a494011bd456a3b216",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
