@@ -1,0 +1,21 @@
+docs/cloudflare-fork.md
+  s_0a39c45e9ed1fb::t_06181ed7470b63 377,379-390
+  s_0a39c45e9ed1fb::t_eabf1c1da7169e 275-277
+  s_0a39c45e9ed1fb::t_e46ea38346eda2 443-449
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "04ab58ccaada6f94d25b2eb18d0f27645241a8d8",
+  "prompts": {},
+  "sessions": {
+    "s_0a39c45e9ed1fb": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fcbf2bd07ffeufccoTDpw3pm24",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
