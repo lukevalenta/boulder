@@ -1,0 +1,110 @@
+accountbinding/keywrap.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-93
+features/features.go
+  s_8c5ffc3fe386ff::t_15e7147d0156c9 103
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 104-111
+docker-compose.yml
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 136-155
+accountbinding/keywrap_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-118
+cmd/boulder/main.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 8-9
+accountbinding/identity_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-165
+accountbinding/rest.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-226
+sapg/writes.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 38-44,61-70,72-88
+wfe2/accountbinding_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-144
+accountbinding/proto/accountbinding.proto
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-44
+probs/probs.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 15-17,31-47,208-214
+ra/ra.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 510-519,522-526
+accountbinding/database.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-54
+sapg/writes_cfbinding.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-54
+test/config-next/postgres/account_binding_dburl
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1
+accountbinding/rest_config.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-77
+accountbinding/identity.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-138
+test/config-next/account-binding-service.json
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-39
+accountbinding/db/db.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-47
+accountbinding/rest_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-216
+cmd/boulder-wfe2/main.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 15,73-78,392-398,482
+test/certs/generate.sh
+  s_8c5ffc3fe386ff::t_15e7147d0156c9 44
+test/integration/account_binding_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-31,33-183
+  s_8c5ffc3fe386ff::t_b5e39cdb39b4ae 32
+test/startservers.py
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 179-183,185-188,191-192,195-197,263-277,303-304
+accountbinding/store.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-245
+wfe2/wfe.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 6,23,31,99-103,223,277,601-606,779-887,906-909,981-996,1037-1040
+accountbinding/server.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-101
+wfe2/wfe_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 436
+sapg/db/migrations/00005_cf_account_bindings.sql
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-43
+accountbinding/server_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-194
+cmd/account-binding-service/main.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-126
+test/config-next/wfe2-eab.json
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-183
+accountbinding/db/migrations/00001_eab_schema.sql
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-45
+ra/ra_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 414-455
+docs/cloudflare-account-gating.md
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 110-190
+cmd/boulder/main_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 17-18,49-52,62-72
+sapg/db.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 22-27
+sapg/reads_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 42-43
+accountbinding/db/migrations/00002_roles_and_grants.sql
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-51
+core/proto/core.proto
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 93-102
+cmd/account-binding-service-migrate/main.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-64
+test/config/postgres/account_binding_dburl
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1
+test/consul/config.hcl
+  s_8c5ffc3fe386ff::t_b5e39cdb39b4ae 42,48
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 36-41,43-47,49-56
+sapg/writes_cfbinding_test.go
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 1-137
+test/entrypoint.sh
+  s_8c5ffc3fe386ff::t_042ed2f51e3ef0 52-59,80
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "218bf187f2d0773cad8aeaa2ef0386173ba8eb45",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
