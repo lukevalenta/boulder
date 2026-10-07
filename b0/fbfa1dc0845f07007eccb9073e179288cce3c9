@@ -1,0 +1,105 @@
+cmd/boulder-ra/main.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 124-131,334-344
+cmd/cf-account-status-feed/main_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-154
+ra/cfaccountstatus_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-111
+sapg/reads_streams.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 117-192
+sapg/reads_streams_cfbinding_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-63
+sapg/reads_more_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 107-135
+sapg/reads_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 42-43,111-112,122-149
+mocks/sa.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 250-259
+sapg/writes_cfstatus_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-61
+test/config-next/ra.json
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 36
+grpc/pb-marshalling_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 179-185
+test/startservers.py
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 196-202
+wfe2/accountbinding_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 19,42-44
+ra/cfaccountstatus.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-149
+test/integration/account_binding_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 184-240
+cmd/admin/main.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 81-83
+cmd/cf-account-status-feed/main.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-288
+test/config-next/account-binding-service.json
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 17-18
+cmd/boulder/main_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 73-78
+sapg/writes_cfstatus.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-44
+core/objects.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 101-108
+accountbinding/proto/accountbinding.proto
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 12-14,25-29,53-56
+wfe2/wfe.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 2665-2669
+sapg/db/migrations/00006_cf_account_status.sql
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-40
+test/config-next/sa.json
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 32
+cmd/admin/dryrun.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 10,57-59
+grpc/pb-marshalling.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 248-254,270-276
+cmd/admin/cf_account_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-105
+docs/cloudflare-account-gating.md
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 13-39,81-83,87-89,112-113,119,121-123,207-210,280-284,309-310,319-322,364-365,385-393,409-425,435-439,444-446,458-460,480-483
+sa/proto/sa.proto
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 40-47,80-81,110-114,527-564
+  s_8c5ffc3fe386ff::t_f3a9fb70957bf4 115
+test/config-next/cf-account-status-feed.json
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-40
+ra/proto/ra.proto
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 108-114
+sapg/reads.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 38-43,46-50,52,61-67
+cmd/boulder/main.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 11
+accountbinding/store.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 146-172
+cmd/admin/cf_account.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1-149
+cmd/admin/admin.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 13,42
+accountbinding/server.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 16-20,33,108-118
+test/certs/generate.sh
+  s_8c5ffc3fe386ff::t_1403f4a102e534 44
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 45
+accountbinding/server_test.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 9-12,28-29,51-62,213-244,246
+ra/ra.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 108-120,2191-2200
+sa/sa.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1849-1856
+sa/saro.go
+  s_8c5ffc3fe386ff::t_dec5119f2b3702 1151-1167
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b0fbfa1dc0845f07007eccb9073e179288cce3c9",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
