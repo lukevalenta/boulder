@@ -1,0 +1,198 @@
+sapg/writes.go
+  s_8c5ffc3fe386ff::t_c190927ce80672 326-370
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-282,371-436
+  s_8c5ffc3fe386ff::t_0039efdde9b178 283-325
+sapg/db/migrations/00001_sa_schema.sql
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-27,29-57,59-130,132-187,190-265
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 28,58,131,266-286
+sapg/reads_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-8,10-41,43-47,79-125,127-153,155-184
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 9,42,48-78,126,154
+.gitlab-ci.yml
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-50
+sapg/authz.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-243
+go.mod
+  s_8c5ffc3fe386ff::t_9b18f747760d4f 17,81-83
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 27,84,90
+  s_8c5ffc3fe386ff::t_8b57b139f3a5b4 96
+sapg/writes_authz.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-164
+sapg/consumers.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-160
+sapg/writes_admin_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-154
+sapg/main_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-4,6-9,11-16,23-33,37,39,41,43,45
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 5,10,17-22,34-36,38,40,42,44
+sapg/query.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-23
+sapg/readonly.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-27
+sapg/reads_streams.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-157
+sapg/health_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-32
+sapg/metrics_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-50
+sapg/writes_cert.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-197
+sapg/writes_orders.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-205
+sapg/run-tests.sh
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-4,7-36
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 5-6
+sapg/sapg.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-58
+sapg/reads_more.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-170
+sapg/reads_classb_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-21,23-242,244-297,299-320
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 22,243,298
+sapg/reads_fqdn.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-55
+sapg/writes_crl.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-178
+sapg/db.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-38
+sapg/identifiers.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-22
+cmd/boulder-sa-pg/main.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-13,14,16-110
+sapg/health.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-17
+sapg/orders.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-256
+sapg/grpc_smoke_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-127
+sapg/writes_pause.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-125
+sapg/reads.go
+  s_8c5ffc3fe386ff::t_cdf44a204587ad 102-115
+  s_8c5ffc3fe386ff::t_21a2d3a37a54d8 8,117-130
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-7,9-101,116,131-134,148,155,157-159,161,163-361
+sapg/db/migrations/00003_mtcmeta_schema.sql
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-12,14,16-40
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 13,15,41-43
+cmd/boulder/main.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 17
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 18
+sapg/writes_classc_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-46,48-90,92-134,136-188,190-274,276-300
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 47,91,135,189,275
+sapg/writes_admin.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-187
+sapg/writes_revoke.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-141
+sapg/writes_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-84,86-120,122-153,155-364
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 85,121,154
+sapg/reads_more_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-56,58-146,148-199
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 57,147
+sapg/storageauthority.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-32
+sapg/database.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-23,34-71
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 24-33
+sapg/metrics.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-139
+sapg/writes_overrides.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-170
+sapg/admin.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-25
+sa/database_postgres.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-89
+sapg/reads_authz.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-200
+sapg/reads_incidents.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-154
+sapg/reads_orders.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-125
+sapg/db/migrations/00002_incidents_schema.sql
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-11,13-15,17-29
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 12,16,30-39
+sapg/errors.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-7
+test/entrypoint.sh
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 36-53,64-65,68-75
+docs/cloudflare-sops.md
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-129
+test/config/postgres/incidents_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/config-next/postgres/sa_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+docs/cloudflare-fork.md
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-449
+test/config/postgres/revoker_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+docker-compose.yml
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 19-23,108-134
+test/integration/issuance_test.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 194-199
+test/config/postgres/sa_ro_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+sapg/db/migrations/00004_roles_and_grants.sql
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-123
+test/config-next/postgres/incidents_admin_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/config-next/postgres/revoker_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+docs/cloudflare-account-gating.md
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-342
+test/config/postgres/incidents_admin_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/db.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 8,40-53
+test/db_postgres.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-104
+test/integration/cert_storage_failed_test.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 24-28,30,32,55-61,73,96
+test/integration/crl_test.go
+  s_8c5ffc3fe386ff::t_41034338371475 187
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 50,161,173,186
+test/config/postgres/mtpublisher_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/startservers.py
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 10-26,45,49,174-179,223-238,260-263
+test/config-next/postgres/incidents_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/config/postgres/cert_checker_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/config/postgres/sa_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/config-next/postgres/cert_checker_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/integration/rawdb_test.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-245
+test/integration/validation_test.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 308
+cmd/boulder-sa-pg-migrate/main.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-64
+test/config/postgres/badkeyrevoker_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+sapg/db/db.go
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1-42
+test/config-next/postgres/sa_ro_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/config-next/postgres/mtpublisher_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+test/config-next/postgres/badkeyrevoker_dburl
+  s_8c5ffc3fe386ff::t_7c4e2905f49c15 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "370ed5fdfae3ab3a84e4ef15a63e6afd53cbbaca",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
