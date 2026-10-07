@@ -1,0 +1,29 @@
+sacf/envelope.go
+  s_8c5ffc3fe386ff::t_38b3a7f53ff30a 1-376
+sacf/envelope_test.go
+  s_8c5ffc3fe386ff::t_4eed9a49a6f639 1-212,219-233,235,237-258
+  s_8c5ffc3fe386ff::t_34077584ea07a0 213-218
+  s_8c5ffc3fe386ff::t_6c834ff6c9ea1d 234
+  s_8c5ffc3fe386ff::t_b02a00e551f56a 236
+sacf/mac_test.go
+  s_8c5ffc3fe386ff::t_04b8f04fae19f7 1-79,82-284
+  s_8c5ffc3fe386ff::t_8c0ab961279f6b 80-81
+sacf/mac.go
+  s_8c5ffc3fe386ff::t_74c1989a299e03 1-210
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "47596aa666a76331a74c3f620b12c7b3e60f12d9",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
