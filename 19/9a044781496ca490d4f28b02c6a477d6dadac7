@@ -1,0 +1,119 @@
+sapg/writes.go
+  s_8c5ffc3fe386ff::t_c190927ce80672 326-370
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-282,371-436
+  s_8c5ffc3fe386ff::t_0039efdde9b178 283-325
+sapg/schema/sa.sql
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-185,188-263
+sapg/reads_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-150
+.gitlab-ci.yml
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-50
+sapg/authz.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-243
+go.mod
+  s_8c5ffc3fe386ff::t_9b18f747760d4f 17,80-82
+sapg/writes_authz.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-164
+sapg/consumers.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-160
+sapg/writes_admin_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-154
+sapg/main_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-58
+sapg/query.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-23
+sapg/readonly.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-27
+sapg/reads_streams.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-157
+sapg/health_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-32
+sapg/metrics_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-50
+sapg/writes_cert.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-197
+sapg/writes_orders.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-205
+sapg/run-tests.sh
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-36
+sapg/sapg.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-58
+sapg/reads_more.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-170
+sapg/reads_classb_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-317
+sapg/reads_fqdn.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-55
+sapg/writes_crl.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-178
+sapg/db.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-38
+sapg/identifiers.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-22
+cmd/boulder-sa-pg/main.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-110
+sapg/health.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-17
+sapg/orders.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-256
+sapg/grpc_smoke_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-127
+sapg/writes_pause.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-125
+sapg/reads.go
+  s_8c5ffc3fe386ff::t_cdf44a204587ad 102-115
+  s_8c5ffc3fe386ff::t_21a2d3a37a54d8 8,117-130
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-7,9-101,116,131-134,148,155,157-159,161,163-361
+sapg/schema/mtcmeta.sql
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-39
+cmd/boulder/main.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 17
+sapg/writes_classc_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-295
+sapg/writes_admin.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-187
+sapg/writes_revoke.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-141
+sapg/writes_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-361
+sapg/reads_more_test.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-197
+sapg/storageauthority.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-32
+sapg/database.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-61
+sapg/metrics.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-139
+sapg/writes_overrides.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-170
+sapg/admin.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-25
+sa/database_postgres.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-89
+sapg/reads_authz.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-200
+sapg/reads_incidents.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-154
+sapg/reads_orders.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-125
+sapg/schema/incidents.sql
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-28
+sapg/errors.go
+  s_8c5ffc3fe386ff::t_dd677076bcaee5 1-7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "199a044781496ca490d4f28b02c6a477d6dadac7",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
