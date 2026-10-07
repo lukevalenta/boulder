@@ -1,0 +1,23 @@
+sapg/newrpcs_test.go
+  s_8c5ffc3fe386ff::t_86b2b881c8de9a 1-203,205-209,211-216,218-225,228-234
+  s_8c5ffc3fe386ff::t_66e023d7f66944 204
+  s_8c5ffc3fe386ff::t_9974512e6c01f7 210
+  s_8c5ffc3fe386ff::t_4b7d02c03fc6d8 217
+  s_8c5ffc3fe386ff::t_a66d20b516c11b 226-227
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "f0a3029aa2f91f856f797e14f6703fd28f5c077b",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
