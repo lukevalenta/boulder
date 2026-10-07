@@ -1,0 +1,23 @@
+sacf/peer.go
+  s_8c5ffc3fe386ff::t_0e105f713cf268 1-171,173,175-363
+  s_8c5ffc3fe386ff::t_9c388f91d7f663 172
+  s_8c5ffc3fe386ff::t_2ef4056bc61cc2 174
+sacf/peer_test.go
+  s_8c5ffc3fe386ff::t_8850eb9bad4c3f 1-331
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ef51784e9cc6af312f8c8200f70f2fb44698684f",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
