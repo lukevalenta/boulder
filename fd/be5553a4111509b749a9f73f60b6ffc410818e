@@ -1,0 +1,33 @@
+sacf/store.go
+  s_8c5ffc3fe386ff::t_3bb84dd7037d67 1-236,238-262,264-292,294-322,324-335,337-339,341-349,351-364,373-384,394-442
+  s_8c5ffc3fe386ff::t_624a70548286cf 237
+  s_8c5ffc3fe386ff::t_ca66f696ac8353 263
+  s_8c5ffc3fe386ff::t_86dc2a57e310ac 293
+  s_8c5ffc3fe386ff::t_8cccdcad695708 323
+  s_8c5ffc3fe386ff::t_0c63700df5418e 336
+  s_8c5ffc3fe386ff::t_fd570b454c558d 340
+  s_8c5ffc3fe386ff::t_5463dda1816917 350
+  s_8c5ffc3fe386ff::t_c79e6c5c3ebfeb 365-367,370-372
+  s_8c5ffc3fe386ff::t_2381f6d2cf8b1c 385-387,391-393
+sacf/store_test.go
+  s_8c5ffc3fe386ff::t_ecdbeb465847f8 1-330,344-404
+  s_8c5ffc3fe386ff::t_43830cebc951ed 331-333,341-343
+sapg/db/migrations/00007_authenticated_records.sql
+  s_8c5ffc3fe386ff::t_e906d428c8ba11 1-170
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "fdbe5553a4111509b749a9f73f60b6ffc410818e",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
