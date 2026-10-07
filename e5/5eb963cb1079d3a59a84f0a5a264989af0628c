@@ -1,0 +1,27 @@
+cmd/bad-key-revoker/main.go
+  s_8c5ffc3fe386ff::t_9f590ec0ca4939 39,67,76,105,114,134
+  s_8c5ffc3fe386ff::t_c484e7307e3c32 195,197,341
+  s_8c5ffc3fe386ff::t_d8775fbd89cb61 317-331
+cmd/bad-key-revoker/db.go
+  s_8c5ffc3fe386ff::t_1f3ac648c68716 1-135
+cmd/bad-key-revoker/main_test.go
+  s_8c5ffc3fe386ff::t_643de6e3a590c2 68,216,238,288,311,352,426,471
+cmd/bad-key-revoker/db_postgres.go
+  s_8c5ffc3fe386ff::t_1f3ac648c68716 1-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e55eb963cb1079d3a59a84f0a5a264989af0628c",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
