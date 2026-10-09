@@ -1,0 +1,23 @@
+test/config-next/sa-r1.json
+  s_dfc4643ba9d910::t_0934dd84830aff 1-81
+test/config-next/sa-r2.json
+  s_dfc4643ba9d910::t_7570af3acd3724 1-81
+test/startservers.py
+  s_dfc4643ba9d910::t_e78d054830e061 27-37,56,60
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "020ec783a6c40cdc4fdefcd91c8b178f089e067b",
+  "prompts": {},
+  "sessions": {
+    "s_dfc4643ba9d910": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ee8ef36aeffeYviN0DCguJdsMk",
+        "model": "cloudflare/auto"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
