@@ -1,0 +1,27 @@
+web/relative_test.go
+  s_8c5ffc3fe386ff::t_bf1144b98666f0 30
+  s_8c5ffc3fe386ff::t_3135e75114b637 10,25
+  s_8c5ffc3fe386ff::t_2dd15dc0efff09 17
+  s_8c5ffc3fe386ff::t_8d3f26d4269943 1-9,11-12,14-16,18-24,26-29,31-34
+  s_8c5ffc3fe386ff::t_023a0dd071e73d 13
+web/relative.go
+  s_8c5ffc3fe386ff::t_491886bcebe857 32
+  s_8c5ffc3fe386ff::t_d09102dac4a7ba 34-37
+  s_8c5ffc3fe386ff::t_2ca32f16690974 33
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5cbe6ee170dd98edd48f8e985f4b058eed1dd766",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": null
+    }
+  }
+}
