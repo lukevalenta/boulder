@@ -1,0 +1,35 @@
+test/acme-worker/tsconfig.json
+  s_8c5ffc3fe386ff::t_8bd079c970deb0 1-12
+  s_dfc4643ba9d910::t_866912db2b30c9 13-17
+test/acme-worker/wrangler.jsonc
+  s_8c5ffc3fe386ff::t_13824211d03fe0 1-21
+test/acme-worker/package.json
+  s_8c5ffc3fe386ff::t_a08efd686d7bd4 1-12
+test/acme-worker/src/index.ts
+  s_8c5ffc3fe386ff::t_7f3c7f1192e111 1-212
+  s_8c5ffc3fe386ff::t_0aba3dd6d3f9fd 213-215
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "2db5a8df9acbf5519f2c5673267b671730c7e3eb",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
+    "s_dfc4643ba9d910": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ee8ef36aeffeYviN0DCguJdsMk",
+        "model": "cloudflare/auto"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
