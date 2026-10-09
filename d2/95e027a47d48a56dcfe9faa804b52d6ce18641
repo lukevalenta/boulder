@@ -1,0 +1,19 @@
+.gitignore
+  s_dfc4643ba9d910::t_44fc3e5b25bfd3 64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d295e027a47d48a56dcfe9faa804b52d6ce18641",
+  "prompts": {},
+  "sessions": {
+    "s_dfc4643ba9d910": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ee8ef36aeffeYviN0DCguJdsMk",
+        "model": "cloudflare/auto"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
