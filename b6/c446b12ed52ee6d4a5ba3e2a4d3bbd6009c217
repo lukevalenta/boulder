@@ -1,0 +1,33 @@
+web/relative.go
+  s_8c5ffc3fe386ff::t_3a361422e5fcf2 32-33
+  s_8c5ffc3fe386ff::t_4ca40a1fd77eb5 34-37
+web/relative_test.go
+  s_8c5ffc3fe386ff::t_3a361422e5fcf2 10-30
+  s_8c5ffc3fe386ff::t_6f3302774b585e 1-9,31-34
+.gitignore
+  s_dfc4643ba9d910::t_44fc3e5b25bfd3 64
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b6c446b12ed52ee6d4a5ba3e2a4d3bbd6009c217",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
+    "s_dfc4643ba9d910": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ee8ef36aeffeYviN0DCguJdsMk",
+        "model": "cloudflare/auto"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
