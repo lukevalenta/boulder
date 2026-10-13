@@ -1,0 +1,24 @@
+test/integration/crl_test.go
+  s_8c5ffc3fe386ff::t_d72d107d26ac80 136-139
+  s_8c5ffc3fe386ff::t_282359434c8973 125-135,140-170,172-173
+  s_8c5ffc3fe386ff::t_6a4528970bb54e 8
+  s_8c5ffc3fe386ff::t_87fb7208547318 171
+docs/RTG-5142-core-postgres.md
+  s_8c5ffc3fe386ff::t_ef4eb67a55e393 592-598
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1947f52b1d469500ddfb7735bbcbad031da572f3",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
