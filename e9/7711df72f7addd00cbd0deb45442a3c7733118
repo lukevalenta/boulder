@@ -1,0 +1,78 @@
+authrec/proto/authrec.proto
+  s_8c5ffc3fe386ff::t_475bea8f407180 19
+  s_8c5ffc3fe386ff::t_6044e506452b07 32-33,53-54
+  s_8c5ffc3fe386ff::t_029690e477a85f 43
+authrec/transport.go
+  s_8c5ffc3fe386ff::t_a2531d820fcd84 112-114
+  s_8c5ffc3fe386ff::t_029690e477a85f 25-27,42,44,46-47,52,57,70,186-187,196,209
+  s_8c5ffc3fe386ff::t_5ea11ad4309df7 115,131,135,143,145,149-151,197
+authrec/scheduler.go
+  s_8c5ffc3fe386ff::t_5ea11ad4309df7 159
+  s_8c5ffc3fe386ff::t_029690e477a85f 73-75,157
+authrec/peer_test.go
+  s_8c5ffc3fe386ff::t_a0d0f261efd860 45
+  s_9317c8b8153552::t_bbfd997dcc2918 153,167,174,182,195,201,211,213-214,218,228,236,246,252,262,269,274,282,288,295,305,311,320,330,338,347
+  s_9317c8b8153552::t_9f0f138a499ca9 109-111,358
+  s_9317c8b8153552::t_72646769922ac8 364,374,379-381,384,391,393,400,409,411,421,428,432,437,442,453,479,485
+  s_9317c8b8153552::t_479882e27c8be3 5,23-44,46-58,60,73,85,93-96,108,121,130,136-138,143,145
+docs/RTG-5142-core-postgres.md
+  s_8c5ffc3fe386ff::t_9a40910a513657 500-503,508
+authrec/transport_test.go
+  s_9317c8b8153552::t_ec2ad40d8b0c8f 24,27,57,61,80-83,90,102,108,119,126,153,169,172-173,182-183,189,200,207,209,214,221,224,228,248
+  s_8c5ffc3fe386ff::t_c30ddcc683537d 264-266
+  s_9317c8b8153552::t_9f0f138a499ca9 58-59,227
+  s_9317c8b8153552::t_da65e97501092f 5,254
+  s_8c5ffc3fe386ff::t_246125ed27771d 13,250,258-263,267-285
+authrec/peer.go
+  s_8c5ffc3fe386ff::t_7f748287345072 208-209
+  s_8c5ffc3fe386ff::t_976d2d9cab30ac 21-23,42,91,150,157,189,193-195,197,223,254,257-262,265,297,322,325-327,333,393,402
+  s_8c5ffc3fe386ff::t_a0d0f261efd860 97
+authrec/envelope.go
+  s_8c5ffc3fe386ff::t_e1a3d38b67a168 103-104
+authrec/scheduler_test.go
+  s_9317c8b8153552::t_229d448456ae06 148,164,365,374
+  s_8c5ffc3fe386ff::t_fd3343bc4e6a9a 172-194,205
+  s_8c5ffc3fe386ff::t_5972c965d960f0 30,153,367,370,376,379
+authrec/peer_keys.go
+  s_8c5ffc3fe386ff::t_a0d0f261efd860 4,19,23-24,46-48
+  s_8c5ffc3fe386ff::t_b960b86f0d7597 49-54
+  s_8c5ffc3fe386ff::t_5ea11ad4309df7 38-45,67
+authrec/peer_history_test.go
+  s_8c5ffc3fe386ff::t_a0d0f261efd860 51
+  s_9317c8b8153552::t_9727f20c88f81b 18,40,52,56,63
+authrec/peer_signature_test.go
+  s_8c5ffc3fe386ff::t_246125ed27771d 33
+  s_9317c8b8153552::t_7179057a0da47b 5,13-14,20-23,26,28,31
+cmd/boulder-sa-pg/main.go
+  s_8c5ffc3fe386ff::t_a0d0f261efd860 218
+  s_8c5ffc3fe386ff::t_029690e477a85f 247,266
+  s_8c5ffc3fe386ff::t_475bea8f407180 117-118,210-216,219
+authrec/peer_keys_test.go
+  s_8c5ffc3fe386ff::t_246125ed27771d 46-56
+  s_8c5ffc3fe386ff::t_e1a3d38b67a168 36-45
+  s_8c5ffc3fe386ff::t_a0d0f261efd860 20,76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e97711df72f7addd00cbd0deb45442a3c7733118",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
+    "s_9317c8b8153552": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ec9a25b30ffeV91GTtme3NMmFe",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
