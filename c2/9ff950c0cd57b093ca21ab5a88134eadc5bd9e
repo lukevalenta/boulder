@@ -1,0 +1,37 @@
+authrec/proto/authrec.proto
+  s_8c5ffc3fe386ff::t_ffd46ff8fe0faa 1-52
+authrec/transport.go
+  s_8c5ffc3fe386ff::t_1fd55a852053e0 1-227
+authrec/transport_test.go
+  s_8c5ffc3fe386ff::t_4512a737cc1330 1-256
+cmd/boulder-sa-pg/main.go
+  s_41572ff5ca6d17::t_c988c5e77daf02 6,14,21,102-111,161-162,203-229,246-250,252,254,264-267
+test/config-next/sa-r1.json
+  s_41572ff5ca6d17::t_6ca926dce207db 2-95
+test/config-next/sa-r2.json
+  s_41572ff5ca6d17::t_8b3c7a4bebc383 2-95
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "c29ff950c0cd57b093ca21ab5a88134eadc5bd9e",
+  "prompts": {},
+  "sessions": {
+    "s_41572ff5ca6d17": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_feaef75d9ffekWmh16uhdOGqc6",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
