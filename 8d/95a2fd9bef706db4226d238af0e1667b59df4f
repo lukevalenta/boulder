@@ -1,0 +1,75 @@
+authrec/peer_keys_test.go
+  s_8c5ffc3fe386ff::t_45a14c6c9c096b 1-6,9-44,49-60
+  s_8c5ffc3fe386ff::t_4658faf01f7516 7-8
+  s_8c5ffc3fe386ff::t_1f92fb012b5a53 45-48
+authrec/proto/authrec.proto
+  s_8c5ffc3fe386ff::t_76388a577d79e1 55
+authrec/peer.go
+  s_8c5ffc3fe386ff::t_56874e92591de1 350-351
+  s_8c5ffc3fe386ff::t_1dc022b6dddb43 517
+  s_8c5ffc3fe386ff::t_7b0798921553c9 348,435-443
+  s_8c5ffc3fe386ff::t_b187677bc89aad 219
+  s_8c5ffc3fe386ff::t_c77198c656adb7 342-347
+  s_8c5ffc3fe386ff::t_659889b40eea8c 59-60
+  s_8c5ffc3fe386ff::t_270ded42c00b13 267-278
+  s_8c5ffc3fe386ff::t_5ea020b627ef08 396-403
+  s_8c5ffc3fe386ff::t_e655efbc6c84d1 349
+  s_8c5ffc3fe386ff::t_89d0e15aeacc64 352-359
+  s_8c5ffc3fe386ff::t_74039b8604ac3c 224-231
+  s_8c5ffc3fe386ff::t_1ab6ba6121f1ae 304-311
+authrec/scheduler.go
+  s_8c5ffc3fe386ff::t_22fb778bf0aabb 92-94
+  s_8c5ffc3fe386ff::t_b088b2ddbaf064 51-53
+  s_8c5ffc3fe386ff::t_b1990875f5ef83 75-78
+  s_8c5ffc3fe386ff::t_144095164b386e 48-50,54-55,89-91,95-96
+  s_8c5ffc3fe386ff::t_f3e298602b02d1 163
+test/config-next/sa-r2.json
+  s_8c5ffc3fe386ff::t_410221f28d33dc 85-90
+test/config-next/sa-r1.json
+  s_8c5ffc3fe386ff::t_410221f28d33dc 85-90
+authrec/peer_signature_test.go
+  s_8c5ffc3fe386ff::t_206e860e6fbac3 1-50
+cmd/boulder-sa-pg/main.go
+  s_8c5ffc3fe386ff::t_d3267d855fc1df 210-221
+  s_8c5ffc3fe386ff::t_0f3554749c33c1 222-223
+  s_8c5ffc3fe386ff::t_0ba09de38ae735 250
+  s_8c5ffc3fe386ff::t_848e37caccbcb6 113-118
+  s_8c5ffc3fe386ff::t_e919d76b709750 5
+  s_8c5ffc3fe386ff::t_3f4265b052450b 269
+authrec/peer_keys.go
+  s_8c5ffc3fe386ff::t_4e51b099df143f 68
+  s_8c5ffc3fe386ff::t_6f7f7c581daf80 1-67,69-92
+authrec/transport.go
+  s_8c5ffc3fe386ff::t_1fa7effd06e213 5
+  s_8c5ffc3fe386ff::t_b1d9f6c4479bcd 38
+  s_8c5ffc3fe386ff::t_5fc37938cd31a0 47-49,54-56
+  s_8c5ffc3fe386ff::t_9a9902b765dddd 67
+  s_8c5ffc3fe386ff::t_56cabadbd63009 245-246
+  s_8c5ffc3fe386ff::t_956b5f06c31c0f 50-53,57-60
+  s_8c5ffc3fe386ff::t_774ebbd5ede067 215-216
+  s_8c5ffc3fe386ff::t_4204ce585d4e88 193-194
+  s_8c5ffc3fe386ff::t_14161b265004b3 72
+  s_8c5ffc3fe386ff::t_5a5de5dd764b60 214
+.gitignore
+  s_8c5ffc3fe386ff::t_410221f28d33dc 65-66
+test/secrets/authrec_peer_r1_public.pem
+  s_8c5ffc3fe386ff::t_2fcd6da4015d31 1-30
+test/secrets/authrec_peer_r2_public.pem
+  s_8c5ffc3fe386ff::t_6c24ace3fdd809 1-30
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8d95a2fd9bef706db4226d238af0e1667b59df4f",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
