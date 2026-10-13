@@ -1,0 +1,19 @@
+authrec/peer_test.go
+  s_41572ff5ca6d17::t_56444887c27701 31,55-56,68,84,147,154,175,193,208,226,242,262,268,285,300,310,327,337-476
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "bb8ea4525fc70c24f61e1861ebd8449a21568901",
+  "prompts": {},
+  "sessions": {
+    "s_41572ff5ca6d17": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_feaef75d9ffekWmh16uhdOGqc6",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
