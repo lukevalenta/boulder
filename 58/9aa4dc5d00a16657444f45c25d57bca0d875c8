@@ -1,0 +1,43 @@
+authrec/readiness_test.go
+  s_8c5ffc3fe386ff::t_e7a6bd79819ab7 17-18
+authrec/readiness.go
+  s_8c5ffc3fe386ff::t_3ea69267891f49 9,12-14
+  s_8c5ffc3fe386ff::t_7f51e4fd80e8ce 123,125
+  s_8c5ffc3fe386ff::t_e820f2a65a85a1 18-19
+authrec/floor.go
+  s_8c5ffc3fe386ff::t_83ccce4e8e3feb 269-306
+docs/RTG-5142-core-postgres.md
+  s_8c5ffc3fe386ff::t_70fa622f2949cd 1180-1181
+  s_8c5ffc3fe386ff::t_a7cdd990da20f7 418-419,424
+  s_8c5ffc3fe386ff::t_4b42b6a4de0f8f 536-538
+  s_8c5ffc3fe386ff::t_40e30fa5bd2fe3 27-29
+  s_8c5ffc3fe386ff::t_3a0574bce79bea 853
+  s_8c5ffc3fe386ff::t_f6f03fdd7301c0 962-964
+  s_8c5ffc3fe386ff::t_d795cca0aaba79 1242-1244
+  s_8c5ffc3fe386ff::t_02522306fddbe1 1265-1266
+  s_8c5ffc3fe386ff::t_f5864609f64a14 1139
+  s_8c5ffc3fe386ff::t_26c49e6ae37948 159-162
+  s_8c5ffc3fe386ff::t_a7aadc513620b7 1017-1020
+  s_8c5ffc3fe386ff::t_fca4ae9131b3ca 381-382
+  s_8c5ffc3fe386ff::t_b6921bd94eef4c 587-592
+authrec/scheduler.go
+  s_8c5ffc3fe386ff::t_81792b8278c605 184
+  s_8c5ffc3fe386ff::t_b52fff05786a3f 166
+  s_8c5ffc3fe386ff::t_f625d6fb29472e 181-183
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "589aa4dc5d00a16657444f45c25d57bca0d875c8",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
