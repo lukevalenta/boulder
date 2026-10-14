@@ -1,0 +1,31 @@
+test/consul/config.hcl
+  s_8c5ffc3fe386ff::t_6004255af5bfca 331-368
+test/config-next/sa-r1.json
+  s_8c5ffc3fe386ff::t_9e9e62a20f3249 80
+test/acme-worker/run-harness.sh
+  s_8c5ffc3fe386ff::t_1da209e89a1c01 58
+test/config-next/sa-r2.json
+  s_8c5ffc3fe386ff::t_9e9e62a20f3249 80
+test/config-next/wfe2-r1.json
+  s_8c5ffc3fe386ff::t_9e9e62a20f3249 1-169
+test/config-next/wfe2-r2.json
+  s_8c5ffc3fe386ff::t_9e9e62a20f3249 1-169
+test/startservers.py
+  s_8c5ffc3fe386ff::t_e81beeb1f1c0bc 162
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9a3dde345cf683f613ebb9569df864a3c18a89fb",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
