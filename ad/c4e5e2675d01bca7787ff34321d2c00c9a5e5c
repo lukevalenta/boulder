@@ -1,0 +1,35 @@
+cmd/boulder-sa-pg/main.go
+  s_8c5ffc3fe386ff::t_a88045bd0ddd74 241-254
+  s_8c5ffc3fe386ff::t_e0372498086935 107-110
+  s_8c5ffc3fe386ff::t_46f5ba46cd0310 255
+test/integration/authrec_region_test.go
+  s_8c5ffc3fe386ff::t_c1da7cf760d24e 569
+  s_8c5ffc3fe386ff::t_f9cf848d5861ff 572
+  s_6e67e41cf84c26::t_dfbf091e3a5221 520-568,570-571
+test/startservers.py
+  s_8c5ffc3fe386ff::t_efe41b54ad37b0 71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "adc4e5e2675d01bca7787ff34321d2c00c9a5e5c",
+  "prompts": {},
+  "sessions": {
+    "s_6e67e41cf84c26": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f73f3dc61ffeG44GS71LfQn7Ea",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    },
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
