@@ -1,0 +1,37 @@
+linter/profile/profile.go
+  s_50e38903d3bb0b::t_ea37534b35c891 21-27
+  s_50e38903d3bb0b::t_9e3758f9fa50d8 50-56
+  s_50e38903d3bb0b::t_4dc894f61ded43 1-20,28-49,57-138
+issuance/cert.go
+  s_50e38903d3bb0b::t_e9444d5dd3fbff 29
+  s_50e38903d3bb0b::t_f69c6296cf377a 114-119
+  s_50e38903d3bb0b::t_a2249f1eda8436 67-69
+  s_50e38903d3bb0b::t_445e2f578bf74c 92
+  s_50e38903d3bb0b::t_4f80a5730fcdb5 398-407
+  s_50e38903d3bb0b::t_8c1ff2f8331acd 131
+  s_50e38903d3bb0b::t_ea37534b35c891 91
+linter/profile/profile_test.go
+  s_50e38903d3bb0b::t_ea37534b35c891 15,17,72-74
+  s_50e38903d3bb0b::t_b3ec425c28ed38 1-14,16,18-36,45-71,75-132
+  s_50e38903d3bb0b::t_e9b1897ae65c4f 37-44
+issuance/cert_test.go
+  s_50e38903d3bb0b::t_ea37534b35c891 891
+  s_50e38903d3bb0b::t_f8fe29e5759175 27
+  s_50e38903d3bb0b::t_18e9198a8d007e 879-890,892-917
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "5d997621e292804e2be66f4356323d4e7171b863",
+  "prompts": {},
+  "sessions": {
+    "s_50e38903d3bb0b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eba440fbcffebAkTqArFII1YM7",
+        "model": "cloudflare/auto"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
