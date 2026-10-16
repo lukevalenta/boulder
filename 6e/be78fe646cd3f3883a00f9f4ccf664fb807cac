@@ -1,0 +1,27 @@
+authrec/peer.go
+  s_8c5ffc3fe386ff::t_38935295b35b8f 121-123
+  s_8c5ffc3fe386ff::t_7d06ec8b004b15 133
+  s_8c5ffc3fe386ff::t_25c1f82c9c112e 90-96
+authrec/peer_rotation_test.go
+  s_8c5ffc3fe386ff::t_59c3ab7d358ae7 1-203
+authrec/peer_keys.go
+  s_8c5ffc3fe386ff::t_bc4280c1217e40 14-28,30-38,41-55,66-74,76-87,90-93,95-96,98-104,106,109-112,117-129,131,134
+authrec/envelope.go
+  s_8c5ffc3fe386ff::t_539cb551f2ea51 47
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "6ebe78fe646cd3f3883a00f9f4ccf664fb807cac",
+  "prompts": {},
+  "sessions": {
+    "s_8c5ffc3fe386ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eecf8cf7fffeAc3xp12OvfHpWj",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
