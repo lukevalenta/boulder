@@ -1,0 +1,59 @@
+go.mod
+  s_50e38903d3bb0b::t_a0e7e8cb1a3eec 79
+  s_50e38903d3bb0b::t_54ae586dc135dd 85
+issuance/cert_test.go
+  s_50e38903d3bb0b::t_76c8bd0306ec66 936
+  s_50e38903d3bb0b::t_69c10c046789e3 906
+  s_50e38903d3bb0b::t_38a06ea201fe89 916-920
+  s_50e38903d3bb0b::t_10c668db8d9ef5 890-903,905,907-911,913
+  s_50e38903d3bb0b::t_9107e46e69f830 15-16
+  s_50e38903d3bb0b::t_dc73806c1fa103 904
+issuance/cert.go
+  s_50e38903d3bb0b::t_06b05e9ade551b 115-117,119,121
+  s_50e38903d3bb0b::t_690e1df63ccd01 134
+  s_50e38903d3bb0b::t_624683c5665329 142-165
+  s_50e38903d3bb0b::t_1f9f9ebc6752d6 430-432
+  s_50e38903d3bb0b::t_d8c18bad2bf076 68-70
+  s_50e38903d3bb0b::t_59b4ae6b1d6fbd 28-29
+  s_50e38903d3bb0b::t_7c75b086d051dc 93
+go.sum
+  s_50e38903d3bb0b::t_1e9f96f20c5d47 160-163,236-237
+vendor/github.com/lukevalenta/certificate-profile/profile/load.go
+  s_50e38903d3bb0b::t_219ab116c24685 4-6,8,11-18,20-21,23,26-32,34-36,38-51,54-55,57-59,61-68,70
+vendor/github.com/lukevalenta/certificate-profile/profile/profile.go
+  s_50e38903d3bb0b::t_7ac14c9ed78b8d 6-7,11-20,23-26,29-31,34-35,38-62,64-79,83-85,87-90,93-99,105-116,118-119,121-137,139-152,154-160,162-170,173-174,176-180,182-183,185-199,201-212,216-221,223-243,245-255,257-261,263,266-275,277
+vendor/github.com/titanous/json5/LICENSE
+  s_50e38903d3bb0b::t_ce85d1b622e97f 1-54
+vendor/github.com/titanous/json5/README.md
+  s_50e38903d3bb0b::t_ce5dc336c22547 1-5
+vendor/github.com/titanous/json5/decode.go
+  s_50e38903d3bb0b::t_41b98a80be4208 1-1311
+vendor/github.com/titanous/json5/fold.go
+  s_50e38903d3bb0b::t_2ac6689596ea1f 1-144
+vendor/github.com/titanous/json5/scanner.go
+  s_50e38903d3bb0b::t_8725b16c9a1857 1-860
+vendor/github.com/titanous/json5/stream.go
+  s_50e38903d3bb0b::t_8859430fa1564e 1-175
+vendor/github.com/titanous/json5/tags.go
+  s_50e38903d3bb0b::t_f8c6d5001520e5 1-44
+vendor/github.com/titanous/json5/types.go
+  s_50e38903d3bb0b::t_518177cebd41df 1-292
+vendor/modules.txt
+  s_50e38903d3bb0b::t_28240a90569017 223-225,295-297
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "7d684074538a1dcb7fbf2a4be40f2429c4daf828",
+  "prompts": {},
+  "sessions": {
+    "s_50e38903d3bb0b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_eba440fbcffebAkTqArFII1YM7",
+        "model": "cloudflare/auto"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
