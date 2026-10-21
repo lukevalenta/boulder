@@ -1,0 +1,26 @@
+web/relative.go
+  s_25e2e45ad15c55::t_0b5a27f90228e2 18-19,35-59
+web/relative_test.go
+  s_25e2e45ad15c55::t_e6d26b38fb742d 4,9-10,12-49,52-68,70-74
+web/context.go
+  s_25e2e45ad15c55::t_9af86116ec2176 188
+  s_25e2e45ad15c55::t_2e955ec72aa6c9 185-187
+wfe2/verify.go
+  s_25e2e45ad15c55::t_f5025468c62051 284-285
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "e316863340e366b81d7326d7fb544e60e307f9c4",
+  "prompts": {},
+  "sessions": {
+    "s_25e2e45ad15c55": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ea0ae818fffe0AXx24PDfc9k2c",
+        "model": "unknown"
+      },
+      "human_author": "Luke Valenta <lvalenta@cloudflare.com>"
+    }
+  }
+}
