@@ -3,7 +3,6 @@ package notmain
 import (
 	"context"
 	"database/sql"
-	"encoding/base64"
 	"errors"
 	"flag"
 	"fmt"
@@ -19,7 +18,6 @@ import (
 	"github.com/letsencrypt/boulder/cmd"
 	"github.com/letsencrypt/boulder/config"
 	"github.com/letsencrypt/boulder/core"
-	"github.com/letsencrypt/boulder/db"
 	"github.com/letsencrypt/boulder/features"
 	bgrpc "github.com/letsencrypt/boulder/grpc"
 	blog "github.com/letsencrypt/boulder/log"
@@ -38,7 +36,7 @@ type revoker interface {
 }
 
 type badKeyRevoker struct {
-	dbMap                     *db.WrappedMap
+	db                        revokerDB
 	maxRevocations            int
 	serialBatchSize           int
 	raClient                  revoker
@@ -66,34 +64,20 @@ func (ubk uncheckedBlockedKey) String() string {
 }
 
 func (bkr *badKeyRevoker) countUncheckedKeys(ctx context.Context) (int, error) {
-	var count int
-	err := bkr.dbMap.SelectOne(
+	return bkr.db.countUncheckedKeys(
 		ctx,
-		&count,
-		`SELECT COUNT(*)
-		FROM (SELECT 1 FROM blockedKeys
-		WHERE extantCertificatesChecked = false AND added < ? - INTERVAL ? SECOND
-		LIMIT ?) AS a`,
 		bkr.clk.Now(),
 		bkr.maxExpectedReplicationLag.Seconds(),
 		blockedKeysGaugeLimit,
 	)
-	return count, err
 }
 
 func (bkr *badKeyRevoker) selectUncheckedKey(ctx context.Context) (uncheckedBlockedKey, error) {
-	var row uncheckedBlockedKey
-	err := bkr.dbMap.SelectOne(
+	return bkr.db.selectUncheckedKey(
 		ctx,
-		&row,
-		`SELECT keyHash, revokedBy
-		FROM blockedKeys
-		WHERE extantCertificatesChecked = false AND added < ? - INTERVAL ? SECOND
-		LIMIT 1`,
 		bkr.clk.Now(),
 		bkr.maxExpectedReplicationLag.Seconds(),
 	)
-	return row, err
 }
 
 // unrevokedCertificate represents a yet to be revoked certificate
@@ -118,19 +102,7 @@ func (bkr *badKeyRevoker) findUnrevoked(ctx context.Context, unchecked unchecked
 	var unrevokedCerts []unrevokedCertificate
 	initialID := 0
 	for {
-		var batch []struct {
-			ID         int
-			CertSerial string
-		}
-		_, err := bkr.dbMap.Select(
-			ctx,
-			&batch,
-			"SELECT id, certSerial FROM keyHashToSerial WHERE keyHash = ? AND id > ? AND certNotAfter > ? ORDER BY id LIMIT ?",
-			unchecked.KeyHash,
-			initialID,
-			bkr.clk.Now(),
-			bkr.serialBatchSize,
-		)
+		batch, err := bkr.db.selectSerialBatch(ctx, unchecked.KeyHash, initialID, bkr.clk.Now(), bkr.serialBatchSize)
 		if err != nil {
 			return nil, err
 		}
@@ -139,22 +111,7 @@ func (bkr *badKeyRevoker) findUnrevoked(ctx context.Context, unchecked unchecked
 		}
 		initialID = batch[len(batch)-1].ID
 		for _, serial := range batch {
-			var unrevokedCert unrevokedCertificate
-			// NOTE: This has a `LIMIT 1` because the certificateStatus and precertificates
-			// tables do not have a UNIQUE KEY on serial (for partitioning reasons). So it's
-			// possible we could get multiple results for a single serial number, but they
-			// would be duplicates.
-			err = bkr.dbMap.SelectOne(
-				ctx,
-				&unrevokedCert,
-				`SELECT cs.id, cs.serial, c.registrationID, c.der, cs.status, cs.isExpired
-				FROM certificateStatus AS cs
-				JOIN precertificates AS c
-				ON cs.serial = c.serial
-				WHERE cs.serial = ?
-				LIMIT 1`,
-				serial.CertSerial,
-			)
+			unrevokedCert, err := bkr.db.selectUnrevokedCertBySerial(ctx, serial.CertSerial)
 			if err != nil {
 				return nil, err
 			}
@@ -174,8 +131,7 @@ func (bkr *badKeyRevoker) findUnrevoked(ctx context.Context, unchecked unchecked
 // markRowChecked updates a row in the blockedKeys table to mark a keyHash
 // as having been checked for extant unrevoked certificates.
 func (bkr *badKeyRevoker) markRowChecked(ctx context.Context, unchecked uncheckedBlockedKey) error {
-	_, err := bkr.dbMap.ExecContext(ctx, "UPDATE blockedKeys SET extantCertificatesChecked = true WHERE keyHash = ?", unchecked.KeyHash)
-	return err
+	return bkr.db.markRowChecked(ctx, unchecked.KeyHash)
 }
 
 // revokeCerts revokes all the provided certificates. It uses reason
@@ -236,16 +192,9 @@ func (bkr *badKeyRevoker) invoke(ctx context.Context) (work bool, err error) {
 	logEvent["revokedBy"] = unchecked.RevokedBy
 
 	if features.Get().RevokeBadKeyAccounts {
-		// Revoke the account, if any, which uses this key. The registrations
-		// table ensures that jwk_sha256 is unique. However, it stores the jwk_sha256
-		// column in base64, unlike the keyHashToSerial table. We do this before the
+		// Revoke the account, if any, which uses this key. We do this before the
 		// certs so that we can still early-exit if there are zero certs to process.
-		_, err = bkr.dbMap.ExecContext(
-			ctx, "UPDATE registrations SET status = ? WHERE jwk_sha256 = ? AND status = ? LIMIT 1",
-			string(core.StatusRevoked),
-			base64.StdEncoding.EncodeToString(unchecked.KeyHash),
-			string(core.StatusValid),
-		)
+		err := bkr.db.revokeAccountByKeyHash(ctx, unchecked.KeyHash)
 		if err != nil {
 			return false, fmt.Errorf("deactivating corresponding account: %w", err)
 		}
@@ -376,7 +325,7 @@ func main() {
 	rac := rapb.NewRegistrationAuthorityClient(conn)
 
 	bkr := &badKeyRevoker{
-		dbMap:                     dbMap,
+		db:                        newBorpRevokerDB(dbMap),
 		maxRevocations:            config.BadKeyRevoker.MaximumRevocations,
 		serialBatchSize:           config.BadKeyRevoker.FindCertificatesBatchSize,
 		raClient:                  rac,

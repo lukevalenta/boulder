@@ -104,14 +104,6 @@ type report struct {
 	DbErrs    int64 `json:"db-errs"`
 }
 
-// certDB is an interface collecting the borp.DbMap functions that the various
-// parts of cert-checker rely on. Using this adapter shim allows tests to swap
-// out the saDbMap implementation.
-type certDB interface {
-	Select(ctx context.Context, i any, query string, args ...any) ([]any, error)
-	SelectOne(ctx context.Context, i any, query string, args ...any) error
-}
-
 // A function that looks up a precertificate by serial and returns its DER bytes. Used for
 // mocking in tests.
 type precertGetter func(context.Context, string) ([]byte, error)
@@ -119,7 +111,7 @@ type precertGetter func(context.Context, string) ([]byte, error)
 type certChecker struct {
 	pa                          core.PolicyAuthority
 	kp                          goodkey.KeyPolicy
-	dbMap                       certDB
+	reader                      certReader
 	getPrecert                  precertGetter
 	certs                       chan *corepb.Certificate
 	clock                       clock.Clock
@@ -143,18 +135,12 @@ func newChecker(saDbMap certDB,
 	lintConfig linter.Config,
 	logger blog.Logger,
 ) certChecker {
-	precertGetter := func(ctx context.Context, serial string) ([]byte, error) {
-		precertPb, err := sa.SelectPrecertificate(ctx, saDbMap, serial)
-		if err != nil {
-			return nil, err
-		}
-		return precertPb.Der, nil
-	}
+	reader := newBorpCertReader(saDbMap)
 	return certChecker{
 		pa:                          pa,
 		kp:                          kp,
-		dbMap:                       saDbMap,
-		getPrecert:                  precertGetter,
+		reader:                      reader,
+		getPrecert:                  reader.selectPrecertDER,
 		certs:                       make(chan *corepb.Certificate, batchSize),
 		clock:                       clk,
 		checkPeriod:                 period,
@@ -181,18 +167,7 @@ func (c *certChecker) findStartingID(ctx context.Context, begin, end time.Time) 
 	queryEnd := begin.Add(time.Hour)
 
 	for queryBegin.Compare(end) < 0 {
-		var output *int64
-		err := c.dbMap.SelectOne(
-			ctx,
-			&output,
-			`SELECT MIN(id) FROM certificates
-				WHERE issued >= :begin AND
-					  issued < :end`,
-			map[string]any{
-				"begin": queryBegin,
-				"end":   queryEnd,
-			},
-		)
+		output, err := c.reader.minCertificateID(ctx, queryBegin, queryEnd)
 		if err != nil {
 			c.logger.AuditErr("finding starting certificate", err, map[string]any{
 				"begin":   queryBegin.Format(time.RFC3339),
@@ -242,22 +217,15 @@ func (c *certChecker) getCerts(ctx context.Context) error {
 	batchStartID := initialID
 	var retries int
 	for {
-		certs, highestID, err := sa.SelectCertificates(
+		// Retrieve certs in batches of 1000 (the size of the certificate channel)
+		// so that we don't eat unnecessary amounts of memory and avoid the 16MB
+		// MySQL packet limit.
+		certs, highestID, err := c.reader.selectCertificateBatch(
 			ctx,
-			c.dbMap,
-			`WHERE id > :id AND
-			       issued >= :begin AND
-				   issued < :end
-			 ORDER BY id LIMIT :limit`,
-			map[string]any{
-				"begin": c.issuedReport.begin,
-				"end":   c.issuedReport.end,
-				// Retrieve certs in batches of 1000 (the size of the certificate channel)
-				// so that we don't eat unnecessary amounts of memory and avoid the 16MB MySQL
-				// packet limit.
-				"limit": batchSize,
-				"id":    batchStartID,
-			},
+			batchStartID,
+			c.issuedReport.begin,
+			c.issuedReport.end,
+			batchSize,
 		)
 		if err != nil {
 			c.logger.AuditErr("selecting certificates", err, map[string]any{
@@ -327,7 +295,7 @@ var expectedExtensionContent = map[string][]byte{
 // status = "deactivated" and "revoked" are counted for this, so long as their
 // validatedAt is before the issuance and expiration is after.
 func (c *certChecker) checkValidations(ctx context.Context, cert *corepb.Certificate, idents identifier.ACMEIdentifiers) error {
-	authzs, err := sa.SelectAuthzsMatchingIssuance(ctx, c.dbMap, cert.RegistrationID, cert.Issued.AsTime(), idents)
+	authzs, err := c.reader.selectAuthzsMatchingIssuance(ctx, cert.RegistrationID, cert.Issued.AsTime(), idents)
 	if err != nil {
 		return fmt.Errorf("error checking authzs for certificate %s: %w", cert.Serial, err)
 	}
