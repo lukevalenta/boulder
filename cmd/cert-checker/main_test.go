@@ -694,7 +694,7 @@ func TestGetCertsEmptyResults(t *testing.T) {
 	fc := clock.NewFake()
 	fc.Set(time.Now())
 	checker := newChecker(saDbMap, fc, pa, kp, time.Hour, testValidityDurations, nil, nil, linter.Config{}, blog.NewMock())
-	checker.dbMap = mismatchedCountDB{}
+	checker.reader = newBorpCertReader(mismatchedCountDB{})
 
 	batchSize = 3
 	err = checker.getCerts(context.Background())

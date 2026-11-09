@@ -65,7 +65,7 @@ func TestSelectUncheckedRows(t *testing.T) {
 	fc := clock.NewFake()
 
 	bkr := &badKeyRevoker{
-		dbMap:                     dbMap,
+		db:                        newBorpRevokerDB(dbMap),
 		logger:                    blog.NewMock(),
 		clk:                       fc,
 		maxExpectedReplicationLag: time.Second * 22,
@@ -213,7 +213,7 @@ func TestFindUnrevokedNoRows(t *testing.T) {
 	test.AssertNotError(t, err, "failed to insert test keyHashToSerial row")
 
 	bkr := &badKeyRevoker{
-		dbMap:                     dbMap,
+		db:                        newBorpRevokerDB(dbMap),
 		serialBatchSize:           1,
 		maxRevocations:            10,
 		clk:                       fc,
@@ -235,7 +235,7 @@ func TestFindUnrevoked(t *testing.T) {
 	regID, _ := insertRegistration(t, dbMap, fc)
 
 	bkr := &badKeyRevoker{
-		dbMap:                     dbMap,
+		db:                        newBorpRevokerDB(dbMap),
 		serialBatchSize:           1,
 		maxRevocations:            10,
 		clk:                       fc,
@@ -285,7 +285,7 @@ func TestRevokeCerts(t *testing.T) {
 	fc := clock.NewFake()
 	mr := &mockRevoker{}
 	bkr := &badKeyRevoker{
-		dbMap:        dbMap,
+		db:           newBorpRevokerDB(dbMap),
 		raClient:     mr,
 		clk:          fc,
 		certsRevoked: prometheus.NewCounter(prometheus.CounterOpts{}),
@@ -308,7 +308,7 @@ func TestCertificateAbsent(t *testing.T) {
 
 	fc := clock.NewFake()
 	bkr := &badKeyRevoker{
-		dbMap:                     dbMap,
+		db:                        newBorpRevokerDB(dbMap),
 		maxRevocations:            1,
 		serialBatchSize:           1,
 		raClient:                  &mockRevoker{},
@@ -349,7 +349,7 @@ func TestInvoke(t *testing.T) {
 
 	mr := &mockRevoker{}
 	bkr := &badKeyRevoker{
-		dbMap:                     dbMap,
+		db:                        newBorpRevokerDB(dbMap),
 		maxRevocations:            10,
 		serialBatchSize:           1,
 		raClient:                  mr,
@@ -423,7 +423,7 @@ func TestInvokeRevokesAccount(t *testing.T) {
 
 	mr := &mockRevoker{}
 	bkr := &badKeyRevoker{
-		dbMap:                     dbMap,
+		db:                        newBorpRevokerDB(dbMap),
 		maxRevocations:            10,
 		serialBatchSize:           1,
 		raClient:                  mr,
@@ -468,7 +468,7 @@ func TestInvokeRevokerHasNoExtantCerts(t *testing.T) {
 	fc := clock.NewFake()
 
 	mr := &mockRevoker{}
-	bkr := &badKeyRevoker{dbMap: dbMap,
+	bkr := &badKeyRevoker{db: newBorpRevokerDB(dbMap),
 		maxRevocations:            10,
 		serialBatchSize:           1,
 		raClient:                  mr,
